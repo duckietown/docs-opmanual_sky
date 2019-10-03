@@ -28,7 +28,7 @@ You will now go through the process of starting and flying your drone! For CS195
    - `roscd pidrone_pkg`
    - `./start_pidrone_code.sh` (this launches a screen session)
 2. On base station:
-   - Open `pidrone_pkg/web/index.html` (a.k.a. web interface) in a web browser; either double-click .html file or drag-and-drop it into a web browser to get it to render as a web page (meaningless to open/edit the file itself!).
+   - Open `pidrone_pkg/web/index.html` (a.k.a. web interface) in a web browser; either double-click .html file or drag-and-drop it into a web browser to get it to render as a web page (meaningless to open/edit the file itself!). You'll need to clone the repository to your base station from [here](https://github.com/h2r/pidrone_pkg/) ahead of time.
    - Type IP address or hostname of drone into `hostname` box and click `Connect`.
 
 ## Programs Used to Fly

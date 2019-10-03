@@ -18,7 +18,8 @@ You will now go through the process of starting and flying your drone! For CS195
 2. Change the line `ssid=defaultdrone` to `ssid=my_wifi_name`, where `my_wifi_name` is your desired WiFi name. Save your changes and close the file.
 3. On the drone, open `/etc/hostname` (using `sudo`).
 4. Replace the first line (e.g. `duckiesky-drone`) with your desired drone name. Save your changes and close the file.
-5. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `my_wifi_name`.
+5. Open `/etc/hosts` (using `sudo`) and replace `duckiesky-drone` with the drone name you chose.
+6. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `my_wifi_name`.
 
 ## How to Fly
 

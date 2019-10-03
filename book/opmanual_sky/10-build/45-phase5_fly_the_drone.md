@@ -9,8 +9,8 @@ You will now go through the process of starting and flying your drone! For CS195
 ## How to Connect to the Drone
 
 1. Plug in the battery or power supply to the drone.
-2. Connect to the wifi network corresponding to the name of your drone.
-3. `ssh duckiesky@192.168.42.1`
+2. Connect to the wifi network corresponding to the name of your drone (initially `defaultdrone` with the password `bigbubba`).
+3. Run `ssh duckiesky@192.168.42.1` and log in with your password (initially `bigbubba`).
 
 ## How to Change Drone Name and WiFi
 

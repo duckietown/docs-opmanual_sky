@@ -9,8 +9,9 @@ You will now go through the process of starting and flying your drone! For CS195
 ## How to Connect to the Drone
 
 1. Plug in the battery or power supply to the drone.
-2. Connect to the wifi network corresponding to the name of your drone.
-3. `ssh duckiesky@192.168.42.1`
+2. Connect to the wifi network corresponding to the name of your drone (initially `defaultdrone` with the password `bigbubba`).
+3. Run `ssh duckiesky@192.168.42.1` and log in with your password (initially `bigbubba`).
+4. Verify that you're connected to the correct drone; run `~/ws/src/pidrone_pkg/blinkpowerled.sh` (you may need to edit the script to use `led0`), the green LED near the micro-USB port should flash.
 
 ## How to Change Drone Name and WiFi
 
@@ -18,7 +19,8 @@ You will now go through the process of starting and flying your drone! For CS195
 2. Change the line `ssid=defaultdrone` to `ssid=my_wifi_name`, where `my_wifi_name` is your desired WiFi name. Save your changes and close the file.  If you change the password, make sure you choose a password longer than 8 characters.
 3. On the drone, open `/etc/hostname` (using `sudo`).
 4. Replace the first line (e.g. `duckiesky-drone`) with your desired drone name. Save your changes and close the file.
-5. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `my_wifi_name`.
+5. Open `/etc/hosts` (using `sudo`) and replace `duckiesky-drone` with the drone name you chose.
+6. Disconnect and re-connect the drone. After ~30 sec, the drone WiFi will appear as `my_wifi_name`.
 
 ## How to Fly
 
@@ -26,7 +28,7 @@ You will now go through the process of starting and flying your drone! For CS195
    - `roscd pidrone_pkg`
    - `./start_pidrone_code.sh` (this launches a screen session)
 2. On base station:
-   - Open `pidrone_pkg/web/index.html` (a.k.a. web interface) in a web browser; either double-click .html file or drag-and-drop it into a web browser to get it to render as a web page (meaningless to open/edit the file itself!).
+   - Open `pidrone_pkg/web/index.html` (a.k.a. web interface) in a web browser; either double-click .html file or drag-and-drop it into a web browser to get it to render as a web page (meaningless to open/edit the file itself!). You'll need to clone the repository to your base station from [here](https://github.com/h2r/pidrone_pkg/) ahead of time.
    - Type IP address or hostname of drone into `hostname` box and click `Connect`.
 
 ## Programs Used to Fly

@@ -38,6 +38,8 @@ Before the FC can be configured, it must first be flashed with firmware. **Firmw
     - A workstation (or personal computer)
     - Flight controller (by this phase, it should be attached to drone)
     - USB to micro USB cable (by this phase, it should be connected to FC)
+    
+   NOTE: If using Mac OS X [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) needs to be installed for Cleanflight to communicate with the flight controller.
 
 2. On a workstation, install and open [Cleanflight](http://cleanflight.com/).
 

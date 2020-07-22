@@ -21,7 +21,7 @@ In order to fly, you will need:
 
 1. Connect to your drone's wifi network.
 
-1. Ssh into your drone with `ssh pi@[yourDroneHostname]`.
+1. Ssh into your drone with `ssh duckiesky@192.168.42.1`.
 
 1. Navigate to `pidrone_pkg` using `cd ~/ws/src/pidrone_pkg`.
 
@@ -30,10 +30,10 @@ In order to fly, you will need:
 1. Put the landing struts on (we ziptie them on) and make sure the
 drone is on a level surface.
 
-1. Calibrate the accellerometer by running `scripts/calibrateAcc.py`.
+1. Calibrate the accellerometer by running `python calibrateAcc.py`.
 
 1. Make sure all of the ROS nodes are running by first
-entering ```0` to make sure that roscore has started properly, and then cycle through all of the screens using ```n`.
+entering ````0 to make sure that roscore has started properly, and then cycle through all of the screens using ````n.
 
 1. Once you've ensured all of the nodes are running, find the file `index.html` in the `web` folder in the `pidrone_pkg` folder which you've downloaded onto your base station.  (If you haven't do that now by finding the repository on github [here](https://github.com/h2r/pidrone_pkg) and downloading the zip file onto your base station or cloning the git repository.)
 

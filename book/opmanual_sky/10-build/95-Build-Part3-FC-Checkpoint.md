@@ -1,4 +1,4 @@
-# Part 3 FC Checkpoint {#build-part3-FC-checkpoint status=ready}
+# Part 3: Flight Controller and Cleanflight Checkpoint {#build-part3-FC-checkpoint status=ready}
 
 **Expected Time**: 20 minutes
 
@@ -63,17 +63,58 @@ In this checkpoint, you go through the process of setting up your drone to fly, 
 
 1. When prompted "Are you ready to fly?", type `y` and press enter since we want to spin the motors
 
-### Test
+### Get a safety failure message!
 
 1. Navigate back to the web interface
 
-1. Arm your drone by pressing the semicolon (`;`) button on your keyboard.
+1. Attempt to arm your drone by pressing the semicolon (`;`) button on your keyboard. (Nothing should happen at this point, continue on)
 
-1. Verify that the motors start spinning. If not, navigate back to the code editor and see if any errors were printed out in the terminal. If there are no errors, it is recommended that you check your cleanflight settings and make sure they're exactly like ours.
+1. Navigate back to the code editor and read the message in the terminal. It should look like the image below:
+
+<figure>
+    <figcaption>Camera Error</figcaption>
+    <img src="photos/checkpoint3-fc-error-camera.png" width="400"/>
+</figure>  
+
+Better: Explanation: The drone code contains safety checks that stop the drone from flying if there is a technical problem. Based on the message in the terminal, the issue is that the drone is not receiving data from the camera. This makes sense, because we haven't even attached the camera, yet! You will temporarily disable this safety check for the purpose of this checkoff, and then reenable it afterwords. This is useful to practice because you may want to adjust other safety thresholds later on as you fly your drone.
+
+### Change the safety threshold
+
+1. On the left side of your code editor, locate the "params" folder.
+
+1. Open the `thresholds.yaml` file.
+
+1. Locate the `camera` paremeter underneath `heartbeat`, and change the value from `0.25` to `60`. This means the code will check for camera errors every 60 seconds, which is plenty of time for this checkoff.
+
+1. Close the file to avoid accidentaly editing it by clicking the small "x" near the file name at the top of the editor. The file change is saved automatically
+
+<figure>
+    <figcaption>Camera Error</figcaption>
+    <img src="photos/checkpoint3-fc-camera-threshold.png" width="400"/>
+</figure>  
+
+### Arm your drone for real!
+
+1. Restart the flight controller: click in the terminal, press the up arrow on your keyboard, type "y" and press enter.
+
+1. Navigate back to the web interface
+
+1. Arm your drone by pressing the semicolon (`;`) button on your keyboard. 
+
+1. Verify that the motors start spinning. If not, navigate back to the code editor and see if any errors were printed out in the terminal. If there are no errors and the motors are not spinning, it is recommended that you check your cleanflight settings and make sure they're exactly like ours.
 
 1. Observe how the flight controller automatically adjusts to disturbances by tilting up one side of the drone and noticing how the motors that are lower are spinning faster than the motors that you've tilted up.
 
 1. Disarm your drone by pressing the **spacebar**.
 
+### Revert the safety threshold
+
+1. On the left side of your code editor, locate the "params" folder.
+
+1. Open the `thresholds.yaml` file.
+
+1. Locate the `camera` paremeter and change the value from `60` back to `0.25`.
+
+1. Close the file to avoid accidentaly editing it (the file saves automatically).
 
 Congrats on finishing build part 3!

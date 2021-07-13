@@ -1,4 +1,4 @@
-# Part 3 FC Instructions {#build-part3-fc-instructions status=ready}
+# Part 3: Flight Controller and Cleanflight Instructions {#build-part3-fc-instructions status=ready}
 
 **Expected Time**: 1 hour
 
@@ -101,6 +101,8 @@ Cleanflight is open-source flight controller software that allows you to flash f
 On your base station, install [Cleanflight](http://cleanflight.com/) (you will need Google Chrome)
 
 ## Flash the firmware
+
+Please follow the written instructions below to flash firmware onto your flight controller. If you are having trouble flashing, please follow [this video](https://drive.google.com/file/d/1F73czx0B381jY2ls-R7TQQ2HCC185t96/view?usp=sharing) to flash the flight controller with the boot pins shorted.
 
 ### Open the firmware flasher
 

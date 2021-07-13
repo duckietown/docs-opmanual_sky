@@ -1,6 +1,6 @@
 # Build {#part:highschool-build-overview status=ready}
 
-TEST RACHEL NAME
+TEST RACHEL NAME here
 
 This section describes how to build the DuckieSky Drone. The following sections will cover the safety protocols and the required materials.
 

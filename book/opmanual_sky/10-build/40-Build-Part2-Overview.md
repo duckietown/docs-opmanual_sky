@@ -14,10 +14,10 @@ In this part of the build, you will be adding your first sensor to the drone -- 
 You will need [Build Part 1](#build-part1-overview) completed before you can begin this build part.
 
 - **Part : Quantity**
-- [TOF Sensor and Wire](#materials-ir) : 1
-- [Analog to Digital Converter and included pins](#materials-adc) : 1
-- [ADC wires](#materials-wires-adc) : 1
-- [Soldering Tools](#materials-soldering-tools)
+- TOF Sensor and Wire : 1
+- Analog to Digital Converter and included pins : 1
+- ADC wires : 1
+- Soldering Tools
 
 ## Detailed Hardware Descriptions
 

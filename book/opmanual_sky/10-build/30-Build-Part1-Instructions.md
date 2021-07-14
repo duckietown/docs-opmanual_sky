@@ -113,11 +113,11 @@ Cut off about 6 inches of both the red and black wire
    <figcaption>BEC preparation</figcaption>
    <figure>
        <figcaption>BEC wires pre-cut</figcaption>
-       <img style='width:250px' src="photos/bec_precut.jpg"/>
+       <img style='width:250px' src=""/>
    </figure>
    <figure>
        <figcaption>BEC wires post-cut (not yet stripped)</figcaption>
-       <img style='width:250px' src="photos/bec_postcut.jpg"/>
+       <img style='width:250px' src=""/>
    </figure>
 </figure>
 
@@ -135,7 +135,7 @@ Solder the **red (+)** OUT wire to the +5V Rail, and solder the **black (-)** OU
 
  <figure>
      <figcaption>BEC Soldered to Pi Hat</figcaption>
-     <img style='width:250px' src="photos/pihat-with-bec.png"/>
+     <img style='width:250px' src=""/>
  </figure>
 
 <div class='check' markdown="1">
@@ -160,7 +160,7 @@ Note: Be careful not to aggresively push the soldering iron tip into the PDB, as
 
 <figure>
     <figcaption>Tinned PDB</figcaption>
-    <img style='width:300px' src="photos/pdbtinned.png"/>
+    <img style='width:300px' src=""/>
 </figure>
 
 ***video tutorial***: [video instructions](https://drive.google.com/file/d/1xVlTBsAtarXKaJycGvJ66VYyJhe6loq3/view?usp=sharing)
@@ -177,7 +177,7 @@ Note: Any of the tinned (+) pads will work; however, using the pad shown in the 
 
 <figure>
     <figcaption>BEC positive wire soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/pdb-with-bec.png"/>
+    <img style='width:300px' src=""/>
 </figure>
 
 
@@ -200,7 +200,7 @@ Note:
 
 <figure>
     <figcaption>XT60 soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/pdb-with-xt60.png"/>
+    <img style='width:300px' src=""/>
 </figure>
 
 

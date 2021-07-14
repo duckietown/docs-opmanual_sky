@@ -83,7 +83,7 @@ This is how the battery will be attached to the drone:
 
 ## Attach PiMount
 
-Place the PiMount on top of the PDB and use the **short** black [M3 bolts](#materials-pimount-screws) from the motors box to secure the mount to the standoffs.     
+Place the PiMount on top of the PDB and use the **short** black M3 bolts from the motors box to secure the mount to the standoffs.     
 
 Note: Ensure that the triangle shape is on the side of the camera.
 
@@ -115,7 +115,7 @@ You will now insert standoffs into the Pi that will help support the Pi Hat and 
 
 ### Attach Pi to Pi Mount
 
-Leaving the Pi Hat detached (to make the next step easier), use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use [3 panhead screws](#materials-pimount-screws) as shown in picture. The Pi USB ports should face toward the front of the drone.
+Leaving the Pi Hat detached (to make the next step easier), use the sliver screws included in the drone frame kit to secure the Pi to the mount. You should use 3 panhead screws as shown in picture. The Pi USB ports should face toward the front of the drone.
 
 Note: The image below does not include the brass standoff from the previous step. Please ignore this discrepancy.
 
@@ -221,7 +221,7 @@ Attach the propellers to the drone so that it may fly; attach CW propellers to t
 
 Note: The bolts on the motors that spin CCW tighten when turned CW, and the bolts on the motors that spin CW tighten when turned CCW.
 
-Use the [8 mm wrench](#materials-wrench-8mm) to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
+Use the 8 mm wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
 <figure class="flow-subfigures">  
     <figcaption>Put on Propellers</figcaption>

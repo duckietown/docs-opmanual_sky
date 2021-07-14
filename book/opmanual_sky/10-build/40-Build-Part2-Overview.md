@@ -8,20 +8,20 @@ In contrast, an **actuator** is a device that _does_ something when provided pow
 
 The simplest possible robot is one that has only actuators. However, a robot with any amount of autonomy would also require sensors. This is because such a robot would need observations about its world in order to decide what to do with its actuators.
 
-In this part of the build, you will be adding your first sensor to the drone -- the infrared (IR) sensor. The IR sensor is used to measure distance. We'll provide more details about the hardware used in this portion of the build, explain the circuit you'll be creating, and then get into the instructions.
+In this part of the build, you will be adding your first sensor to the drone -- the Time of Flight (TOF) sensor. The TOF sensor is used to measure distance. We'll provide more details about the hardware used in this portion of the build, explain the circuit you'll be creating, and then get into the instructions.
 
 ## Required Materials
 You will need [Build Part 1](#build-part1-overview) completed before you can begin this build part.
 
 - **Part : Quantity**
-- [Infrared Sensor and Wire](#materials-ir) : 1
+- [TOF Sensor and Wire](#materials-ir) : 1
 - [Analog to Digital Converter and included pins](#materials-adc) : 1
 - [ADC wires](#materials-wires-adc) : 1
 - [Soldering Tools](#materials-soldering-tools)
 
 ## Detailed Hardware Descriptions
 
-### Infrared (IR) Sensor
+### Time of Flight (TOF) Sensor
 The IR sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the angle of reflection on other. The sensor outputs a voltage value that varies inversely with distance to an object. After powering up your sensor, you'll be able to read the voltage output from the sensor using a multimeter.
 
 <figure>
@@ -37,7 +37,7 @@ The Raspberry Pi GPIO pins can only read digital signals (1's and 0's). However,
     <img style='width:200px' src="photos/new-adc.png"/>
 </figure>
 
-In order to connect the IR sensor and ADC, you will be creating the following circuit:
+In order to connect the TOF sensor and ADC, you will be creating the following circuit:
 
 <figure>
     <figcaption>ADC Circuit Block Diagram</figcaption>

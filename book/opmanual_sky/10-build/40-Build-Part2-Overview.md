@@ -1,4 +1,4 @@
-# Part 2: IR Sensor Overview {#build-part2-overview status=ready}
+# Part 2: TOF Sensor Overview {#build-part2-overview status=ready}
 
 ## Preface
 
@@ -22,11 +22,11 @@ You will need [Build Part 1](#build-part1-overview) completed before you can beg
 ## Detailed Hardware Descriptions
 
 ### Time of Flight (TOF) Sensor
-The IR sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the angle of reflection on other. The sensor outputs a voltage value that varies inversely with distance to an object. After powering up your sensor, you'll be able to read the voltage output from the sensor using a multimeter.
+The IR sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the time it takes for the light to be reflected back to the sensor. Based on this value and the known speed of light, the distance traveled can be calculated. Therefore, the sensor on the drone is able to determine the instantaneous height of the drone during flight.
 
 <figure>
-    <figcaption>Infrared Sensor and Wire</figcaption>
-    <img style='width:200px' src="photos/new-ir.png"/>
+    <figcaption>Time of Flight Sensor and Wire</figcaption>
+    <img style='width:200px' src=""/>
 </figure>
 
 ### Analog to Digital Converter (ADC)
@@ -50,8 +50,8 @@ After completing this section, your build will match the diagram below. Compare 
 
 <figure>  
   <figcaption> Diagram for Build Part 2 </figcaption>
-  <img style='width:400px' src="photos/diagram-part2.png"/>
+  <img style='width:400px' src=""/>
 </figure>
 
-The IR sensor receives power from the Pi Hat, and the sensor output signal is
+The TOF sensor receives power from the Pi Hat, and the sensor output signal is
 received by the ADC. The ADC converts the analog signal into a digital signal, and passes this to the Pi using the SCL and SDA inputs, (which is called I2C protocol).

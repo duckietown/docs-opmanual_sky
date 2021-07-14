@@ -15,24 +15,10 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-all-materials.png" width="500" align="middle"/>
 </figure>
 
-
-## FPV250 Drone Frame Kit
-<figure class="flow-subfigures">  
-<figcaption>Drone Frame Kit</figcaption>
-     <figure>
-       <figcaption>Closed</figcaption>
-       <img style='width:220px' src="photos/new-drone-box-closed.png"/>
-     </figure>
-     <figure>  
-       <figcaption>Open</figcaption>
-       <img style='width:220px' src="photos/new-drone-box-open.png"/>
-     </figure>
-</figure>
-
 ### Frame
 <figure>
     <figcaption>Drone Frame</figcaption>
-    <img src="photos/new-drone-frame.png" width="250" align="middle"/>
+    <img src="" width="250" align="middle"/>
 </figure>
 
 **Units:** 1  
@@ -40,13 +26,15 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 ### Power Distribution Board (PDB) {#materials-pdb}
 <figure>
-    <img src="photos/new-pdb.png" width="250"/>
+    <img src="" width="250"/>
 </figure>  
 
 **Units:** 1  
 **Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
-### Panhead screws {#materials-pimount-screws}
+### Screws 
+M3 6mm, Units:11; 10mm, Units:18; 12mm, Units:22; 16mm, Units:5
+M2 6mm, Units:5
 <figure>
     <img src="photos/new-pi-mount-screws.png" width="250"/>
 </figure>  

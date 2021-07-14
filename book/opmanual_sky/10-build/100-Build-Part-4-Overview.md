@@ -3,16 +3,16 @@
 In this section of the build, you will attach the camera, and finalize the drone assembly.
 
 - **Part : Quantity**
-- [Raspberry Pi Camera](#materials-camera) : 1
-- [Pi Mount](#materials-pi-mount) : 1
-- [Pi Mount Screws](#materials-pimount-screws) : 3
-- [Brass Standoffs](#materials-brass-standoffs) : 2
-- [CW Propellors](#materials-props) : 2
-- [CCW Propellors](#materials-props) : 2
-- [8mm Wrench](#materials-wrench-8mm) : 1
-- [Battery Mount](#materials-battery-mount) : 1
-- [Hot glue gun](#materials-misc) : 1
-- [Zip Ties](#materials-zipties) : 10+
+- Raspberry Pi Camera : 1
+- Pi Mount : 1
+- Pi Mount Screws : 3
+- Brass Standoffs : 2
+- CW Propellors : 2
+- CCW Propellors : 2
+- 8mm Wrench : 1
+- Battery Mount : 1
+- Hot glue gun : 1
+- Zip Ties : 10+
 
 ## Hardware
 

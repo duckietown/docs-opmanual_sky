@@ -10,5 +10,5 @@ The figure below is a wiring diagram of the completed build. It will be a useful
 
 <figure>  
     <figcaption>Wiring Diagram</figcaption>
-    <img style='width:500px' src="photos/diagram-completed.png"/>
+    <img style='width:500px' src="photos/Build_diagramV2.jpg"/>
 </figure>

@@ -37,13 +37,6 @@ The Raspberry Pi GPIO pins can only read digital signals (1's and 0's). However,
     <img style='width:200px' src="photos/new-adc.png"/>
 </figure>
 
-In order to connect the TOF sensor and ADC, you will be creating the following circuit:
-
-<figure>
-    <figcaption>ADC Circuit Block Diagram</figcaption>
-    <img style='width:250px' src="photos/adc_block_diagram.jpg"/>
-</figure>
-
 ## Build Progress
 
 After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) and to the [Part 1 diagram](#build-part1-diagram) to see how what you're building up to the final result.

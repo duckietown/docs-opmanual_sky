@@ -13,7 +13,6 @@ First, we will reintroduce you to the components that you will be working with. 
 - [Battery Charger](#materials-battery-charger) : 1
 - [Battery Charging Adapter](#materials-battery-charger-adapter) : 1
 - [Power Distribution Board](#materials-pdb) : 1
-- [Battery Eliminator Circuit](#materials-bec) : 1
 - [Pi Hat](#materials-pihat) : 1
 - [XT60 Connector](#materials-xt60) : 1
 - [Soldering Tools](#materials-soldering-tools) : 1
@@ -21,6 +20,7 @@ First, we will reintroduce you to the components that you will be working with. 
 - [Heat Sinks](#materials-heat-sinks): 1 set
 - [Micro SD Card](#materials-sd-card) : 1
 - [Base Station](#materials-base-station) : 1
+- Red & Black Spare wires: 1
 - Micro SD Card Reader : 1
 - LED : 1
 - Resistor : 1
@@ -34,7 +34,7 @@ First, we will reintroduce you to the components that you will be working with. 
     <img src="photos/new-battery.png" width="200"/>
 </figure>
 
-The Battery on your drone is a 1500mAh 3S 20C LiPo Battery. Let's go over what all that means.
+The Battery on your drone is a 1600mAh 3S 20C LiPo Battery. Let's go over what all that means.
 
 **Capacity**
 
@@ -46,7 +46,7 @@ A Lithium-ion polymer (LiPo) battery is made up of one or more LiPo cells. Each 
 
 **Current Output**
 
-The "C" rating of a LiPo Battery determines how much current the battery can deliver. The maximum current current draw is equal to the battery's **C** rating multiplied by the battery's capacity. For the drone's 1500mAh 20C batteries, the maximum current draw is 1500mAh x 20C = 30A.
+The "C" rating of a LiPo Battery determines how much current the battery can deliver. The maximum current current draw is equal to the battery's **C** rating multiplied by the battery's capacity. For the drone's 1600mAh 20C batteries, the maximum current draw is 1600mAh x 20C = 32A.
 
 **Precautions**
 
@@ -56,19 +56,10 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 
 <figure>
      <figcaption>Power Distribution Board</figcaption>
-    <img src="photos/new-pdb.png" width="200"/>
+    <img src="" width="200"/>
 </figure>
 
 The Power Distribution Board is used to distribute power from the battery to electrical components of the drone. The PDB an example of Printed Circuit Board (PCB), which is a circuit board that has connections within its structure. For the PDB, the internal wiring connects all of the positive (+) pads together, and all of the negative (-) pads together; this allows for the battery to be connected to one set of positive and negative pads, and all of the other pads receive power.
-
-### BEC
-
-<figure>
-     <figcaption>Battery Eliminator Circuit</figcaption>
-    <img src="photos/new-bec.png" width="200"/>
-</figure>
-
-The Battery Eliminator Circuit, or BEC, solves the issue that arises from different electrical components requiring different supply voltages. In the case of the drone, the LiPo battery used for outputs around 12V; this is the required voltage for the motors, but not for the Raspberry Pi, which requires 5V. The Battery Eliminator Circuit eliminates the need to carry multiple batteries of different voltages by converting the 12V supply from the battery down to a 5V supply for the Pi.
 
 ### Raspberry Pi
 
@@ -158,4 +149,4 @@ After completing this section, your build will match the diagram below. Compare 
   <img style='width:400px' src="photos/diagram-part1.png"/>
 </figure>
 
-The electricity flows from the battery, through the PDB to the BEC where the voltage is stepped down to 5V, then into the Pi Hat, and finally to the Pi and the LED.
+The electricity flows from the battery, through the PDB. This specific PDB is able to step the voltage down to 5V, then into the Pi Hat, and finally to the Pi and the LED.

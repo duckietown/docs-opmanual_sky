@@ -15,7 +15,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="" width="500" align="middle"/>
 </figure>
 
-### Frame
+## Frame Kit
 <figure>
     <figcaption>Drone Frame</figcaption>
     <img src="" width="250" align="middle"/>
@@ -24,7 +24,35 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1  
 **Description:** Carbon Fiber Quad frame. Components include: Top platform, Bottom Platform, Sandwich Platform, 4 Arms, 4 Landing Gears, 4 Propeller Guards 
 
-### Power Distribution Board (PDB) {#materials-pdb}
+### Standoffs 
+<figure>
+    <figcaption>Standoffs</figcaption>
+    <img src="" width="250" align="middle"/>
+</figure>
+
+**Units:** 4  
+**Description:** A special type of screw that can also accept other screws. Used for assembling the frame.
+
+### Screws 
+
+<figure>
+    <img src="" width="250"/>
+</figure>  
+
+**Units:** M3 6mm(11)  M3 10mm(18)  M3 12mm(22)  M3 16mm(5)  M2 6mm(5)
+**Description:** Small screws that are used for component mounting and frame assembly. 
+
+### Nuts 
+
+<figure>
+    <img src="" width="250"/>
+</figure>  
+
+**Units:** M3(50)  M2(5)
+**Description:** Small nuts that are used for component mounting and frame assembly. 
+
+
+## Power Distribution Board (PDB) {#materials-pdb}
 <figure>
     <img src="" width="250"/>
 </figure>  
@@ -32,21 +60,8 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1  
 **Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
-### Screws 
-M3 6mm  Units:11  
-M3 10mm Units:18  
-M3 12mm Units:22  
-M3 16mm Units:5  
-M2 6mm, Units:5
-<figure>
-    <img src="" width="250"/>
-</figure>  
 
-**Units:** 3    
-**Description:** Small screws that are used for component mounting and frame assembly. 
-
-
-## XT60 Connector {#materials-xt60}
+### XT60 Connector {#materials-xt60}
 <figure>
     <img src="photos/new-xt60.png" width="250"/>
 </figure>  

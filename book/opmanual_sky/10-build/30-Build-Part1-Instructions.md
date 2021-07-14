@@ -103,20 +103,20 @@ Note: The direction of the resistor does not matter, but the direction of the LE
 
 You've just finished the LED circuit! In a future lesson, you will learn how to send electricity through GPIO pin #6 to the LED and resistor, and then back to ground.
 
-## Attach the PDB to the Pi Hat
+## Powering the Pi Hat
 
 ### Prepare
 
-Cut off about 6 inches of both the red and black wire
+Cut off about 4.5 inches of both the red and black wire
 
 <figure>
-   <figcaption>BEC preparation</figcaption>
+   <figcaption> Wire preparation</figcaption>
    <figure>
-       <figcaption>BEC wires pre-cut</figcaption>
+       <figcaption>Wires pre-cut</figcaption>
        <img style='width:250px' src=""/>
    </figure>
    <figure>
-       <figcaption>BEC wires post-cut (not yet stripped)</figcaption>
+       <figcaption>Wires post-cut (not yet stripped)</figcaption>
        <img style='width:250px' src=""/>
    </figure>
 </figure>
@@ -134,7 +134,7 @@ Solder the **red (+)** OUT wire to the +5V Rail, and solder the **black (-)** OU
  Remark: Any hole on the rails will work; however, for wire organization, it is better to use a hole on the 5V rail that is shown. If you mess up soldering, it is ok to leave the mistake and use a different hole.
 
  <figure>
-     <figcaption>BEC Soldered to Pi Hat</figcaption>
+     <figcaption>Wires Soldered to Pi Hat</figcaption>
      <img style='width:250px' src=""/>
  </figure>
 
@@ -176,7 +176,7 @@ Solder the **red (+)** IN wire to the **positive (+)** pad on the PDB, and solde
 Note: Any of the tinned (+) pads will work; however, using the pad shown in the image will help with wire organization later on.
 
 <figure>
-    <figcaption>BEC positive wire soldered to PDB</figcaption>
+    <figcaption>Ideal position of wires soldered to PDB</figcaption>
     <img style='width:300px' src=""/>
 </figure>
 
@@ -187,7 +187,7 @@ Note: Any of the tinned (+) pads will work; however, using the pad shown in the 
 
 1. Measure out from the ends of the battery connector a length of 3 inches. Cut off the excess.
 2. Strip the ends of the battery connector so that about 1cm of wire is exposed.
-3. Tin the exposed ends of the XT60 connector.
+3. Twist and tin the exposed ends of the XT60 connector.
 
 ### Solder (Through Hole)
 
@@ -262,7 +262,7 @@ Align the 2x40 GPIO pins on the Raspberry Pi with the 2x40 pin header that you s
 
 <figure>
     <figcaption>Pi Hat lined up</figcaption>
-    <img style='width:300px' src="photos/pihat_lined_up.jpg"/>
+    <img style='width:300px' src=""/>
 </figure>
 
 ### Press down
@@ -271,7 +271,7 @@ Press the pin header down onto the GPIO pins to connect the Pi Hat
 
 <figure>
     <figcaption>Pi Hat lined up</figcaption>
-    <img style='width:300px' src="photos/pihat_fully_connected.jpg"/>
+    <img style='width:300px' src=""/>
 </figure>
 
 
@@ -297,10 +297,10 @@ Note: The SD card direction does matter - the lettering on the SD card should be
     <figcaption>SD Card inserted in the Pi</figcaption>
     <figure>
         <figcaption>Top View</figcaption>
-        <img style='width:230px' src="photos/sd_card_in_pi_top_view.jpg"/>
+        <img style='width:230px' src=""/>
     </figure>
     <figure>  
         <figcaption>Bottom View</figcaption>
-        <img style='width:230px' src="photos/sd_card_in_pi_bottom_view.jpg"/>
+        <img style='width:230px' src=""/>
     </figure>
 </figure>  

@@ -107,7 +107,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-hexkey.png" width="250"/>
 </figure>  
 
-**Description:** Used to tighten the [M3 bolts](#materials-bolt-m3)
+**Description:** Used to tighten the M3 bolts
 
 ## 5040 3-Blade Propeller {#materials-props}
 <figure>
@@ -182,7 +182,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-screwdriver.png" width="250"/>
 </figure>  
 
-**Description:** Used to tighten the [Pi Mount screws](#materials-pimount-screws)
+**Description:** Used to tighten the Pi Mount screws
 
 ### Perma-Proto Raspberry Pi Hat (Pi Hat) and Pin Header {#materials-pihat}
 <figure>

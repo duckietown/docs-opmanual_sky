@@ -12,7 +12,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 ## All materials included in the kit
 <figure>
-    <img src="photos/new-all-materials.png" width="500" align="middle"/>
+    <img src="" width="500" align="middle"/>
 </figure>
 
 ### Frame
@@ -22,7 +22,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 </figure>
 
 **Units:** 1  
-**Description:** A 250mm plastic racing quad frame. Included in the frame box.
+**Description:** Carbon Fiber Quad frame. Components include: Top platform, Bottom Platform, Sandwich Platform, 4 Arms, 4 Landing Gears, 4 Propeller Guards 
 
 ### Power Distribution Board (PDB) {#materials-pdb}
 <figure>
@@ -33,21 +33,17 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
 ### Screws 
-M3 6mm, Units:11; 10mm, Units:18; 12mm, Units:22; 16mm, Units:5
+M3 6mm  Units:11  
+M3 10mm Units:18  
+M3 12mm Units:22  
+M3 16mm Units:5  
 M2 6mm, Units:5
 <figure>
-    <img src="photos/new-pi-mount-screws.png" width="250"/>
+    <img src="" width="250"/>
 </figure>  
 
 **Units:** 3    
-**Description:** Small screws that are used to mount the Pi on top of the pi mount. Included in the frame box.
-
-### Landing Gears
-<figure>
-    <img src="photos/new-landing-gears.png" width="250"/>
-</figure>  
-
-**Description:** Feet that attach to the drone frame. Included in frame box
+**Description:** Small screws that are used for component mounting and frame assembly. 
 
 
 ## XT60 Connector {#materials-xt60}
@@ -122,13 +118,6 @@ M2 6mm, Units:5
 **Units:** 4    
 **Description:** An electronic component that sends variable amount of power to a motor, based on a specified input signal. Every motor needs one ESC.
 
-### Wires for the ESCs {#materials-wires-esc}
-<figure>
-    <img src="photos/new-wires-esc.png" width="250"/>
-</figure>  
-
-**Description:** Used to wire the ESCs to the motors. Note that the colors of the wires do not affect the functionality; they just make it easier for these instructions. If you have difficulty seeing colors, do not worry about about mixing these wires up.
-
 
 ## 2.0mm Bullet Connector {#materials-bullet-connectors}
 <figure class="flow-subfigures">  
@@ -146,15 +135,8 @@ M2 6mm, Units:5
 **Units:** 24 (12 plugs and 12 sockets)    
 **Description:** The bullet connectors on the left are **plug** connectors and the ones on the right are **socket** connectors. A plug connector can be inserted into a socket connector to complete an electric connection.
 
-## Brass Standoffs {#materials-brass-standoffs}
-<figure>
-    <img src="photos/new-standoffs.png" width="250"/>
-</figure>  
 
-**Units:** 6    
-**Description:** A special type of screw that can also accept other screws.
-
-## Raspberry Pi 3 Model B (Pi) {#materials-pi}
+## Raspberry Pi 3 Model B+ (Pi) {#materials-pi}
 <figure>
     <img src="photos/new-pi.png" width="250"/>
 </figure>  
@@ -162,7 +144,7 @@ M2 6mm, Units:5
 **Units:** 1   
 **Description:** A single board computer that can execute code loaded via an SD card.
 
-### 16GB Micro SD Card {#materials-sd-card}
+### 32GB Micro SD Card {#materials-sd-card}
 
 <figure>
     <img src="photos/new-sd.png" width="200"/>
@@ -179,13 +161,6 @@ M2 6mm, Units:5
 **Units:** 3 (14mm * 14mm * 7mm; 9mm * 9mm * 5mm; 12mm * 12mm * 1mm)    
 **Description:** A device that helps dissipate heat. Heat sinks help to keep computer processors cool.
 
-### Pi Mount {#materials-pi-mount}
-<figure>
-    <img src="photos/new-pi-mount.png" width="250"/>
-</figure>  
-
-**Units:** 1   
-**Description:** A 3D-printed mount for attaching the Raspberry Pi to the drone frame.
 
 ### Screwdriver
 <figure>
@@ -202,18 +177,11 @@ M2 6mm, Units:5
 **Units:** 1    
 **Description:** A breadboard specifically designed for easy attachment to a Pi. The header gets soldered to the Pi Hat to attach it to the Pi.
 
-## Battery Eliminator Circuit (BEC) {#materials-bec}
-<figure>
-    <img src="photos/new-bec.png" width="250"/>
-</figure>  
-
-**Units:** 1   
-**Description:** An electronic component that steps down the voltage from 12V from the battery to 5V for the Pi
 
 ## Flight Controller (FC) {#materials-fc}
 <figure>
     <figcaption>Flight Controller Board and Vertical Pins</figcaption>
-    <img src="photos/new-fc.png" width="250"/>
+    <img src="" width="250"/>
 </figure>  
 
 **Units:** 1 + 1  
@@ -227,12 +195,6 @@ M2 6mm, Units:5
 **Units:** 1
 **Description:** Connects the [flight controller](#materials-fc) to the [Raspberry Pi](#materials-pi).
 
-### Foam Mounting Tape {#materials-mounting-tape}
-<figure>
-    <img src="photos/new-tape.png" width="150"/>
-</figure>  
-
-**Description:** Double-sided tape used to mount the flight controller onto the drone frame
 
 ## Arducam 5MP 1080p OV5647 Camera (Pi Cam) + 15pin Flexible Flat Cable (FFC) {#materials-camera}
 <figure>
@@ -242,12 +204,12 @@ M2 6mm, Units:5
 **Units:** 1 + 1   
 **Description:** A sensor that observes 2D images of the world and reports it on a FFC cable. FFC included in pi cam box.
 
-## Infrared Sensor (IR) + IR Sensor Cable {#materials-ir}
+## Time of Flight Sensor (TOF) + TOF Sensor Cable {#materials-ir}
 <figure>
-    <img src="photos/new-ir.png" width="250"/>
+    <img src="" width="250"/>
 </figure>  
 
-**Units:** 1 + 1  
+**Units:** 1  
 **Description:** A sensor that measures distance to an object using infrared beams, then reports it on a wire.
 
 
@@ -276,9 +238,9 @@ M2 6mm, Units:5
 
 **Description:** Used to wire the ADC to the Pi Hat. We use the colors blue, green, red, and black to make it easier to follow the instructions, but the color of the wire does not affect the functionality.
 
-## 1500mAh 3S 20C LiPo Battery {#materials-battery}
+## 1600mAh 3S 20C LiPo Battery {#materials-battery}
 <figure>
-    <img src="photos/new-battery.png" width="250"/>
+    <img src="" width="250"/>
 </figure>  
 
 **Units:** 1   
@@ -303,12 +265,6 @@ M2 6mm, Units:5
 **Units:** 1   
 **Description:** Connects the battery charger to a wall outlet
 
-### Battery Mount {#materials-battery-mount}
-<figure>
-    <img src="photos/new-battery-mount.png" width="250"/>
-</figure>  
-
-**Description:** A 3D printed part that attaches to the drone frame and holds in the battery
 
 ### Velcro Strap {#materials-velcro}
 <figure>

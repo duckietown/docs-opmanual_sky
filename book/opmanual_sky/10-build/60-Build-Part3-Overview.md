@@ -15,7 +15,7 @@ In this phase of the build, you'll be adding the essential elements of every dro
 - [ESC Wires](#materials-wires-esc)
 - [Velcro Strap](#materials-velcro) : 1
 - [Bullet Connectors](#materials-bullet-connectors) : 12 Plugs, 12 Sockets
-- [Brass Standoffs](#materials-brass-standoffs) : 4
+- Brass Standoffs : 4
 - [Spare Wire](#materials-wires-extra)
 - [Soldering Tools](#materials-soldering-tools)
 

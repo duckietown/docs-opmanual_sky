@@ -4,7 +4,7 @@
 
 ## Overview
 
-You will now checks to see if the IR sensor on your drone is working properly. You will using the drone software and the web interface to see drone's height estimate.
+You will now checks to see if the TOF sensor on your drone is working properly. You will using the drone software and the web interface to see drone's height estimate.
 
 
 ## Reading the IR sensor on the web interface
@@ -30,7 +30,7 @@ You will now checks to see if the IR sensor on your drone is working properly. Y
 
 1. locate the *Height Readings* chart on the web interface
 
-1. Use your hand to move the IR sensor closer and further to an object and check that the Height Readings chart is changing
+1. Use your hand to move the TOF sensor closer and further to an object and check that the Height Readings chart is changing
 
 
 

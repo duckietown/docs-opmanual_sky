@@ -9,14 +9,14 @@ First, we will reintroduce you to the components that you will be working with. 
 ## Required Materials
 
 **Part : Quantity**
-- [Battery](#materials-battery) : 1
-- [Battery Charger](#materials-battery-charger) : 1
-- [Battery Charging Adapter](#materials-battery-charger-adapter) : 1
-- [Power Distribution Board](#materials-pdb) : 1
-- [Pi Hat](#materials-pihat) : 1
-- [XT60 Connector](#materials-xt60) : 1
-- [Soldering Tools](#materials-soldering-tools) : 1
-- [Raspberry Pi](#materials-pi) : 1
+- Battery : 1
+- Battery Charger : 1
+- [Battery Charging Adapter : 1
+- Power Distribution Board : 1
+- Pi Hat : 1
+- XT60 Connector : 1
+- Soldering Tools : 1
+- Raspberry Pi : 1
 - Heat Sinks : 1 set
 - Micro SD Card : 1
 - Base Station : 1

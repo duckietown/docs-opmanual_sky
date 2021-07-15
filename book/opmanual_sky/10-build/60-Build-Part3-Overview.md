@@ -7,14 +7,14 @@ In this phase of the build, you'll be adding the essential elements of every dro
 
 **Part : Quantity**
  
-- [Counter-clockwise Motors](#materials-motors-ccw) : 2
-- [Clockwise Motors](#materials-motors-cw) : 2
-- [Long M3 Bolts (included w/ motor)](#materials-bolt-m3) : 16
-- [Short M3 Bolts (included w/ motor)](#materials-bolt-m3) : 4
+- Counter-clockwise Motors : 2
+- Clockwise Motors : 2
+- Long M3 Bolts (included w/ motor) : 16
+- Short M3 Bolts (included w/ motor)) : 4
 - [Electronic Speed Controllers (ESCs)](#materials-esc) : 4
-- [Bullet Connectors](#materials-bullet-connectors) : 12 Plugs, 12 Sockets
+- Bullet Connectors : 12 Plugs, 12 Sockets
 - [Soldering Tools](#materials-soldering-tools) 
-- [Flight Controller](#materials-fc) : 1
+- Flight Controller : 1
 - Spare wire (Red and Black) : 1
 <!-- 
 - Counter-clockwise Motors : 2

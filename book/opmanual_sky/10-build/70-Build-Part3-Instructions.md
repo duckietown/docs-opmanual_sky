@@ -83,3 +83,51 @@ Visually inspect each ESC and verify that the heat shrinks are on properly; ther
 - Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
 
 </div>
+
+## Prepping the Flight Controller
+
+### Solder the pins to the flight controller
+
+Solder the short edge of the straight pins to the flight controller.
+
+Note: Be sure that direction you solder the pins into the board is exactly as shown in the images
+
+<figure class="flow-subfigures">  
+    <figcaption>Solder FC Pins</figcaption>
+    <figure>
+        <figcaption>View 1</figcaption>
+        <img style='width:250px' src="photos/fc-view-1.png"/>
+    </figure>
+    <figure>  
+        <figcaption>View 2</figcaption>
+        <img style='width:250px' src="photos/fc-view-2.png"/>
+    </figure>
+</figure>
+
+### Trim
+
+Trim the all of the pins on the flight controller just like the four shown in the image. This helps the flight controller sit level on the drone frame.
+
+Note: the image shows only 4 trimmed, but you will want to trim all of the pins (updated picture coming soon).
+
+<figure class="flow-subfigures">  
+<figcaption>Trim the FC pins</figcaption>
+     <figure>
+           <figcaption>FC pins need trimming</figcaption>
+           <img style='width:220px' src="photos/fc-trim-pin.png"/>
+     </figure>
+     <figure>
+           <figcaption>FC with pins cut</figcaption>
+           <img style='width:220px' src="photos/fc-pins-level.png"/>
+     </figure>
+</figure>
+
+### Solder the battery monitor leads to the flight controller
+
+Tin and solder the battery leads to the flight controller as shown in the image
+
+<figure>  
+    <figcaption>View 2</figcaption>
+    <img style='width:250px' src="photos/battery-leads.png"/>
+</figure>
+

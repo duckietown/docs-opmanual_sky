@@ -53,11 +53,13 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 [Review the safety information on the battery](#build-safety-battery). Take the proper precautions when using, storing, or charging is very important to keeping the battery safe. Only store the battery at room temperature and out of direct sun light.  Do not discharge a battery below 10.5 V. **Never** leave the battery charging unattended. Unplug the battery once it is fully charged.
 
 ### Power Distribution Board (PDB)
-
+TODO: fix pdb image 
+<!--
 <figure>
      <figcaption>Power Distribution Board</figcaption>
     <img src="" width="200"/>
 </figure>
+-->
 
 The Power Distribution Board is used to distribute power from the battery to electrical components of the drone. The PDB an example of Printed Circuit Board (PCB), which is a circuit board that has connections within its structure. For the PDB, the internal wiring connects all of the positive (+) pads together, and all of the negative (-) pads together; this allows for the battery to be connected to one set of positive and negative pads, and all of the other pads receive power.
 

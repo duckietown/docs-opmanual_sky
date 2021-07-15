@@ -52,7 +52,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** Small nuts that are used for component mounting and frame assembly. 
 
 
-## Power Distribution Board (PDB) {#materials-pdb}
+## Power Distribution Board (PDB) 
 <figure>
     <img src="" width="250"/>
 </figure>  
@@ -61,7 +61,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** An electronic component that distributes power that it receives to other components connected to it. Included in the frame box.
 
 
-### XT60 Connector {#materials-xt60}
+### XT60 Connector 
 <figure>
     <img src="photos/new-xt60.png" width="250"/>
 </figure>  
@@ -70,22 +70,21 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** The power connector cable that transfers power from the battery to the PDB.
 
-## 2205 2300KV Brushless Motor {#materials-motors}
+## 2205 2300KV Brushless Motor 
 <figure>
     <img src="photos/2205_2300kv_brushless_motors_red.jpg" width="200"/>
 </figure>  
 
 **Description:** An actuator that spins at variable speeds. Although brushless motors can spin in either direction, the motor shafts are threaded so that as the propellor spins, it does not loosen the nut and fly off. You can identify which direction a motor should spin by noticing the direction of the arrows on top.
 
-### Clockwise Motor {#materials-motors-cw}
-
+### Clockwise Motor 
 <figure>
     <img src="photos/new-motor-cw.png" width="250"/>
 </figure>  
 
 **Units:** 2
 
-### Counter-clockwise Motor {#materials-motors-ccw}
+### Counter-clockwise Motor 
 
 <figure>
     <img src="photos/new-motor-ccw.png" width="250"/>
@@ -94,7 +93,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 2
 
 
-### M3 Bolts {#materials-bolt-m3}
+### M3 Bolts 
 <figure>
     <img src="photos/new-motor-screws.png" width="250"/>
 </figure>  
@@ -109,7 +108,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** Used to tighten the M3 bolts
 
-## 5040 3-Blade Propeller {#materials-props}
+## 5040 3-Blade Propeller 
 <figure>
     <img src="photos/new-props.png" width="250"/>
 </figure>  
@@ -118,14 +117,14 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** A device with blades that turns rotational motion into thrust. 5 refers to the diameter in inches, and 4 refers to the distance the propeller would travel if turned one rotation without slippage, e.g. in jello. Three blades gives more lift for a given diameter than two blades - at the cost of efficiency.
 
-### 8mm Wrench {#materials-wrench-8mm}
+### 8mm Wrench 
 <figure>
     <img src="photos/new-wrench.png" width="250"/>
 </figure>  
 
 **Description:** Used to tighten the motor nuts that hold down the propellors
 
-## 30A Brushless Electronic Speed Controller (ESC) {#materials-esc}
+## 30A Brushless Electronic Speed Controller (ESC)
 <figure>
     <img src="photos/new-esc.png" width="250"/>
 </figure>  
@@ -134,7 +133,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** An electronic component that sends variable amount of power to a motor, based on a specified input signal. Every motor needs one ESC.
 
 
-## 2.0mm Bullet Connector {#materials-bullet-connectors}
+## 2.0mm Bullet Connector 
 <figure class="flow-subfigures">  
     <figcaption>Bullet Connectors</figcaption>
     <figure>
@@ -151,7 +150,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** The bullet connectors on the left are **plug** connectors and the ones on the right are **socket** connectors. A plug connector can be inserted into a socket connector to complete an electric connection.
 
 
-## Raspberry Pi 3 Model B+ (Pi) {#materials-pi}
+## Raspberry Pi 3 Model B+ (Pi) 
 <figure>
     <img src="photos/new-pi.png" width="250"/>
 </figure>  
@@ -159,7 +158,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1   
 **Description:** A single board computer that can execute code loaded via an SD card.
 
-### 32GB Micro SD Card {#materials-sd-card}
+### 32GB Micro SD Card 
 
 <figure>
     <img src="photos/new-sd.png" width="200"/>
@@ -168,7 +167,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1   
 **Description:** A memory device, especially notable because it can store code and be inserted into a Pi.
 
-### Heat Sinks {#materials-heat-sinks}
+### Heat Sinks 
 <figure>
     <img src="photos/new-heat-sinks.png" width="250"/>
 </figure>  
@@ -184,7 +183,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** Used to tighten the Pi Mount screws
 
-### Perma-Proto Raspberry Pi Hat (Pi Hat) and Pin Header {#materials-pihat}
+### Perma-Proto Raspberry Pi Hat (Pi Hat) and Pin Header 
 <figure>
     <img src="photos/new-pihat.png" width="250"/>
 </figure>  
@@ -193,7 +192,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** A breadboard specifically designed for easy attachment to a Pi. The header gets soldered to the Pi Hat to attach it to the Pi.
 
 
-## Flight Controller (FC) {#materials-fc}
+## Flight Controller (FC) 
 <figure>
     <figcaption>Flight Controller Board and Vertical Pins</figcaption>
     <img src="" width="250"/>
@@ -202,16 +201,16 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1 + 1  
 **Description:** A flight controller is a device that contains a few sensors: an accelerometer and a gyroscope; together these sensors make an IMU. The accelerometer measures linear accelerations and a gyroscope measures angular velocities. A flight controller also sends input signals to the ESCs. There are extra wires included in the flight controller box. The drone only requires the flight controller board and the vertical pins.
 
-### USB to Micro USB {#materials-usb-to-micro-usb}
+### USB to Micro USB
 <figure>
     <img src="photos/usb.png" width="250"/>
 </figure>  
 
 **Units:** 1
-**Description:** Connects the [flight controller](#materials-fc) to the [Raspberry Pi](#materials-pi).
+**Description:** Connects the flight controller to the Raspberry Pi.
 
 
-## Arducam 5MP 1080p OV5647 Camera (Pi Cam) + 15pin Flexible Flat Cable (FFC) {#materials-camera}
+## Arducam 5MP 1080p OV5647 Camera (Pi Cam) + 15pin Flexible Flat Cable (FFC) 
 <figure>
     <img src="photos/new-picam.png" width="250"/>
 </figure>  
@@ -219,7 +218,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1 + 1   
 **Description:** A sensor that observes 2D images of the world and reports it on a FFC cable. FFC included in pi cam box.
 
-## Time of Flight Sensor (TOF) + TOF Sensor Cable {#materials-ir}
+## Time of Flight Sensor (TOF) + TOF Sensor Cable 
 <figure>
     <img src="" width="250"/>
 </figure>  
@@ -228,7 +227,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** A sensor that measures distance to an object using infrared beams, then reports it on a wire.
 
 
-## Analog-to-Digital Converter (ADC) {#materials-adc}
+## Analog-to-Digital Converter (ADC) 
 <figure>
   <figcaption>ADC</figcaption>
   <img style='width:220px' src="photos/new-adc.png"/>
@@ -246,14 +245,14 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** The pins get soldered into the ADC in order to connect it to the Pi Hat
 
-### Wires for the ADC {#materials-wires-adc}
+### Wires for the ADC 
 <figure>
     <img src="photos/new-wires-adc.png" width="250"/>
 </figure>  
 
 **Description:** Used to wire the ADC to the Pi Hat. We use the colors blue, green, red, and black to make it easier to follow the instructions, but the color of the wire does not affect the functionality.
 
-## 1600mAh 3S 20C LiPo Battery {#materials-battery}
+## 1600mAh 3S 20C LiPo Battery 
 <figure>
     <img src="" width="250"/>
 </figure>  
@@ -261,7 +260,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1   
 **Description:** A lithium polymer battery used to power the drone.
 
-### 12V 2-3S LiPo Battery Balancer/Charger {#materials-battery-charger}
+### 12V 2-3S LiPo Battery Balancer/Charger 
 
 <figure>
     <img src="photos/new-charger.png" width="250"/>
@@ -271,7 +270,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** Safely charges and balances the LiPo battery
 
 
-### AC/DC US Charge Adapter {#materials-battery-charger-adapter}
+### AC/DC US Charge Adapter 
 
 <figure>
     <img src="photos/new-adapter.png" width="250"/>
@@ -281,7 +280,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** Connects the battery charger to a wall outlet
 
 
-### Velcro Strap {#materials-velcro}
+### Velcro Strap 
 <figure>
     <img src="photos/new-velcro.png" width="250"/>
 </figure>  
@@ -296,14 +295,14 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Description:** A heat shrink (a.k.a heatshrink or heat-shrink tubing) is a shrinkable plastic insulator tube used to insulate wires. It is commonly used as a "sleeve" over a solder joint.
 
-## Zip Ties {#materials-zipties}
+## Zip Ties 
 <figure>
     <img src="photos/new-zipties.png" width="250"/>
 </figure>  
 
 **Description:** A zip tie is a type of fastener for holding items together, primarily electrical cables or wires.       
 
-## Extra Wires {#materials-wires-extra}
+## Extra Wires 
 <figure>
     <img src="photos/new-wires-red-black.png" width="250"/>
 </figure>  

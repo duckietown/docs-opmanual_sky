@@ -28,7 +28,7 @@ For each ESC:
 1. Solder a socket bullet connector to the end of each of the 3 blue ESC wires.
 
 1. Put a heat shrink over each solder joint. For socket connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
-
+ 
 <figure>  
     <figcaption>Put Heat Shrinks on Socket Bullet Connectors</figcaption>
     <figure>
@@ -77,8 +77,6 @@ For each motor:
 Visually inspect each ESC and verify that the heat shrinks are on properly; there should be no exposed wires and each heat shrink should be a tight fit.
 
 - Visually inspect that each of the following is stripped and tinned: 4 ESCs, 4 motors
-
-- Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on the XT60 connector cable; verify there is no short between the red and black wire.
 
 - Do a [connectivity check](https://docs.duckietown.org/daffy/opmanual_sky/out/build_multimeter.html) on each ESC; for each ESC, verify there are no shorts between any two wires you soldered.
 

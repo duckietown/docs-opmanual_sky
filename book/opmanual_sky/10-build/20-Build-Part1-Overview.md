@@ -8,7 +8,7 @@ First, we will reintroduce you to the components that you will be working with. 
 
 ## Required Materials
 
-- **Part : Quantity**
+**Part : Quantity**
 - [Battery](#materials-battery) : 1
 - [Battery Charger](#materials-battery-charger) : 1
 - [Battery Charging Adapter](#materials-battery-charger-adapter) : 1

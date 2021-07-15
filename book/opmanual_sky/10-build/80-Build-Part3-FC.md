@@ -8,8 +8,7 @@ In this phase of the build, you will configure and calibrate the Flight Controll
 - **Part : Quantity**
 - Foam Mounting Tape : 1
 - [USB to Micro USB cable](#materials-usb-to-micro-usb) : 1
-- base station
-
+- Spare wires
 
 ## Hardware
 
@@ -20,6 +19,17 @@ The flight controller (i.e. FC) contains multiple sensors: an Inertial Measureme
 <figure>
      <figcaption>Flight Controller</figcaption>
     <img src="photos/new-fc.png" width="300"/>
+</figure>
+
+
+### Battery Monitoring Leads (Spare red and black wires)
+
+The battery monitor wires leads allow the flight controller to *monitor* the power traversing the PDB. This is useful because the flight controller can inform the Pi of the battery voltage. The benefit of this is that the software will prevent the battery from draining too low and permanently damaging it.
+
+You will be using the extra red and black wire that came with the kit to make the battery monitor leads
+
+<figure>  
+  <img style='width:150px' src="photos/new-wires-red-black.png"/>
 </figure>
 
 ### USB to Micro USB cable

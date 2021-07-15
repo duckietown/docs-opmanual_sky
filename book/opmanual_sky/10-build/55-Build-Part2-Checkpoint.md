@@ -12,10 +12,8 @@ You will now checks to see if the TOF sensor on your drone is working properly. 
 ### Connect to the drone
 
 1. Plug the battery into your drone build and connect to the drone's wifi network. By default, the network is named, *defaultdrone*, and the password is *bigbubba*.
-
-1. Browse to the drone's code editor: [http://192.168.42.1:8081](http://192.168.42.1:8081)
-
-1. In a new tab, browse to the web interface: [http://192.168.42.1](http://192.168.42.1). The web interface is what you will use to fly the drone. It also contains graphs that show data from the sensors.
+2. Browse to the drone's code editor: [http://192.168.42.1:8081](http://192.168.42.1:8081)
+3. In a new tab, browse to the web interface: [http://192.168.42.1](http://192.168.42.1). The web interface is what you will use to fly the drone. It also contains graphs that show data from the sensors.
 
 
 ### Start up the code
@@ -25,6 +23,15 @@ You will now checks to see if the TOF sensor on your drone is working properly. 
 1. Type `./start` and press enter
 
 1. Go back to the web interface tab, wait about 5 seconds, and refresh the page. Make sure that you see "Connected" at the top of the page. If you do not see this, wait a few more seconds and try refreshing again.
+2. Locate and record the drone's ip address (You'll need this later)
+
+
+### Making edits for the Lidar sensor
+1. Remain connected to the drone's wifi.
+2. Download this file and keep in your downloads folder: 
+3. Open up the terminal on your laptop and run the following command (Fill in your set drone username and the drone's ip address):
+    scp ~/Downloads/lidar_sensor_node.py username@192.drone.ip???.42:/path/to/scripts/folder/in/drone/from/the/orignal/slash/lidar_sensor_node.py
+
 
 ### Test
 

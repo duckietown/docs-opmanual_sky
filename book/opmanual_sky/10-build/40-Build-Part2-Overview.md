@@ -11,7 +11,7 @@ The simplest possible robot is one that has only actuators. However, a robot wit
 In this part of the build, you will be adding your first sensor to the drone -- the Time of Flight (TOF) sensor. The TOF sensor is used to measure distance. We'll provide more details about the hardware used in this portion of the build, explain the circuit you'll be creating, and then get into the instructions.
 
 ## Required Materials
-You will need [Build Part 1](#build-part1-overview) completed before you can begin this build part.
+You will need Build Part 1 completed before you can begin this build part.
 
 - **Part : Quantity**
 - TOF Sensor and Wire : 1

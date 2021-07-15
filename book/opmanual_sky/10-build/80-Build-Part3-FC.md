@@ -6,9 +6,9 @@
 In this phase of the build, you will configure and calibrate the Flight Controller and ESCs. First, you will flash the flight controller with firmware, then you will configure the firmware to the settings that work best on the drone. Firmware is a special type of software that controls the hardware on a device.  
 
 - **Part : Quantity**
-- [Foam Mounting Tape](#materials-mounting-tape) : 1
+- Foam Mounting Tape : 1
 - [USB to Micro USB cable](#materials-usb-to-micro-usb) : 1
-- [base station](#materials-base-station)
+- base station
 
 
 ## Hardware

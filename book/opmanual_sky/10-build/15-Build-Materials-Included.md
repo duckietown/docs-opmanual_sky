@@ -226,32 +226,6 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Units:** 1  
 **Description:** A sensor that measures distance to an object using infrared beams, then reports it on a wire.
 
-
-## Analog-to-Digital Converter (ADC) 
-<figure>
-  <figcaption>ADC</figcaption>
-  <img style='width:220px' src="photos/new-adc.png"/>
-</figure>
-
-
-**Units:** 1    
-**Description:** A device that converts real-valued signals (i.e. analog) into discrete-valued signals (i.e. digital).
-
-### Pins
-<figure>  
-  <figcaption>Pins</figcaption>
-  <img style='width:300px' src="photos/new-adc-pins.png"/>
-</figure>
-
-**Description:** The pins get soldered into the ADC in order to connect it to the Pi Hat
-
-### Wires for the ADC 
-<figure>
-    <img src="photos/new-wires-adc.png" width="250"/>
-</figure>  
-
-**Description:** Used to wire the ADC to the Pi Hat. We use the colors blue, green, red, and black to make it easier to follow the instructions, but the color of the wire does not affect the functionality.
-
 ## 1600mAh 3S 20C LiPo Battery 
 <figure>
     <img src="" width="250"/>

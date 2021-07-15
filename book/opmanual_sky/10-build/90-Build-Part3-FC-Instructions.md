@@ -2,6 +2,35 @@
 
 **Expected Time**: 1 hour
 
+## Solder to the flight controller
+
+### Solder the pins to the flight controller
+
+Solder the short edge of the straight pins to the flight controller.
+
+Note: Be sure that direction you solder the pins into the board is exactly as shown in the images
+
+<figure class="flow-subfigures">  
+    <figcaption>Solder FC Pins</figcaption>
+    <figure>
+        <figcaption>View 1</figcaption>
+        <img style='width:250px' src="photos/fc-view-1.png"/>
+    </figure>
+    <figure>  
+        <figcaption>View 2</figcaption>
+        <img style='width:250px' src="photos/fc-view-2.png"/>
+    </figure>
+</figure>
+
+### Solder the battery monitor leads to the flight controller
+
+Tin and solder the battery leads to the flight controller as shown in the image
+
+<figure>  
+    <figcaption>View 2</figcaption>
+    <img style='width:250px' src="photos/battery-leads.png"/>
+</figure>
+
 ## Attach the Flight Controller
 
 ### Trim
@@ -22,17 +51,6 @@ Note: the image shows only 4 trimmed, but you will want to trim all of the pins 
      </figure>
 </figure>
 
-### Apply Tape to the Bottom of the FC
-
-1. Put double sided mounting tape on the bottom of the FC.
-
-1. Cut off any excess tape.
-
-### Stick the FC to the drone frame
-
-1. Peel off the back of the foam tape
-
-1. Attach the FC to front of the drone. Ensure the FC is not skewed and it is pushed against the frame body. (Ignore the extra wires in the flight controller for now).
 
 <figure>
     <figcaption>Orientation of Drone Frame</figcaption>

@@ -6,17 +6,12 @@ In this phase of the build, you'll be adding the essential elements of every dro
 ## Required Materials
 
 - **Part : Quantity**
-- [Flight Controller](#materials-fc) : 1
 - [Counter-clockwise Motors](#materials-motors-ccw) : 2
 - [Clockwise Motors](#materials-motors-cw) : 2
 - [Long M3 Bolts](#materials-bolt-m3) (included w/ motor) : 16
 - [Short M3 Bolts](#materials-bolt-m3) (included w/ motor) : 4
 - [Electronic Speed Controllers](#materials-esc) (ESCs) : 4
-- [ESC Wires](#materials-wires-esc)
-- [Velcro Strap](#materials-velcro) : 1
 - [Bullet Connectors](#materials-bullet-connectors) : 12 Plugs, 12 Sockets
-- Brass Standoffs : 4
-- [Spare Wire](#materials-wires-extra)
 - [Soldering Tools](#materials-soldering-tools)
 
 
@@ -51,27 +46,6 @@ Bullet connectors are used to connect two wires together in a way that allows th
        <figcaption>Plug</figcaption>
        <img style='width:150px' src="photos/new-bullet-connectors-plug.png"/>
     </figure>
-</figure>
-
-
-### Metal Standoffs
-
-Standoffs are used to separate layers of electronic circuits. On the drone, the standoffs will be used to separate the PDB from the Pi.
-
-<figure>  
-  <figcaption>Metal Standoff</figcaption>
-  <img style='width:150px' src="photos/standoff.png"/>
-</figure>
-
-
-### Battery Monitoring Leads
-
-The battery monitor wires leads allow the flight controller to *monitor* the power traversing the PDB. This is useful because the flight controller can inform the Pi of the battery voltage. The benefit of this is that the software will prevent the battery from draining too low and permanently damaging it.
-
-You will be using the extra red and black wire that came with the kit to make the battery monitor leads
-
-<figure>  
-  <img style='width:150px' src="photos/new-wires-red-black.png"/>
 </figure>
 
 

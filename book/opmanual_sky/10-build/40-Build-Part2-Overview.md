@@ -22,18 +22,21 @@ You will need Build Part 1 completed before you can begin this build part.
 ### Time of Flight (TOF) Sensor
 The TOF sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the time it takes for the light to be reflected back to the sensor. Based on this value and the known speed of light, the distance traveled can be calculated. Therefore, the sensor on the drone is able to determine the instantaneous height of the drone during flight.
 
+TODO: insert the time of flight sensor and wire picture
+<!--
 <figure>
     <figcaption>Time of Flight Sensor and Wire</figcaption>
     <img style='width:200px' src=""/>
 </figure>
-
+--> 
 ## Build Progress
 
-After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) and to the [Part 1 diagram](#build-part1-diagram) to see how what you're building up to the final result.
+After completing this section, your build will match the diagram below. Compare this diagram to the [completed drone diagram](#diagram-complete) and to the Part 1 diagram to see how what you're building up to the final result.
 
+TODO: insert diagram part 2 png 
 <figure>  
   <figcaption> Diagram for Build Part 2 </figcaption>
-  <img style='width:400px' src=""/>
+  <img style='width:400px' src="photos/diagram-part2.png"/>
 </figure>
 
 The TOF sensor receives power from the Pi Hat. When fucnctioning, the sensor outputs a 11 bit digital signal. This signal is passed through the Pi also using the Pi hat inputs. 

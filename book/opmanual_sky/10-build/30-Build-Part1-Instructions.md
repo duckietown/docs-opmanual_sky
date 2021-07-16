@@ -293,4 +293,15 @@ Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi.
 
 Note: The SD card direction does matter - the lettering on the SD card should be facing downward.
 
+<figure class="flow-subfigures">  
+    <figcaption>SD Card inserted in the Pi</figcaption>
+    <figure>
+        <figcaption>Bottom View</figcaption>
+        <img style='width:230px' src="photos/piBottomView.png"/>
+    </figure>
+    <figure>  
+        <figcaption>Top View</figcaption>
+        <img style='width:230px' src="photos/piTopView.png"/>
+    </figure>
+</figure>  
 

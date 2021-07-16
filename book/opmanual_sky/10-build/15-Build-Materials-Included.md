@@ -236,7 +236,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 ### 12V 2-3S LiPo Battery Balancer/Charger 
 
 <figure>
-    <img src="photos/new-charger.png" width="250"/>
+    <img src="photos/newBuildBattery.jpg" width="250"/>
 </figure>  
 
 **Units:** 1   

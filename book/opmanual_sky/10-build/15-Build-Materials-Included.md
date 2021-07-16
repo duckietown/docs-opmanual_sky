@@ -192,13 +192,23 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 
 ## Flight Controller (FC) 
-<figure>
-    <figcaption>Flight Controller Board and Vertical Pins</figcaption>
-    <img src="" width="250"/>
+MAYBE: ADD PHOTO OF PINS THAT COME WITH FLIGHT CONTROLLER
+
+<figure class="flow-subfigures">  
+    <figcaption>Flight Controller Board</figcaption>
+    <figure>
+        <figcaption>View 1</figcaption>
+        <img style='width:150px' src="photos/fcView1.png"/>
+    </figure>
+    <figure>  
+        <figcaption>View 2</figcaption>
+        <img style='width:150px' src="photos/fcView2.png"/>
+    </figure>
 </figure>  
 
+
 **Units:** 1 + 1  
-**Description:** A flight controller is a device that contains a few sensors: an accelerometer and a gyroscope; together these sensors make an IMU. The accelerometer measures linear accelerations and a gyroscope measures angular velocities. A flight controller also sends input signals to the ESCs. There are extra wires included in the flight controller box. The drone only requires the flight controller board and the vertical pins.
+**Description:** A flight controller is a device that contains a few sensors: an accelerometer and a gyroscope; together these sensors make an IMU. The accelerometer measures linear accelerations and a gyroscope measures angular velocities. A flight controller also sends input signals to the ESCs. There are extra wires included in the flight controller box. The drone only requires the flight controller board and the vertical pins that come with it.
 
 ### USB to Micro USB
 <figure>

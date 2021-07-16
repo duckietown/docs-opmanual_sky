@@ -109,7 +109,7 @@ You've just finished the LED circuit! In a future lesson, you will learn how to 
 
 Cut off about 4.5 inches of both the red and black wire
 
-<figure>
+<figure class="flow-subfigures">
    <figcaption> Wire preparation</figcaption>
    <figure>
        <figcaption>Wires pre-cut</figcaption>
@@ -171,10 +171,14 @@ Note: For the remainder of the instructions, unless stated otherwise, **red** wi
 
 ### Solder
 
-Solder the **red (+)** IN wire to the **5V** pad on the PDB, and solder the **black (-)** IN wire to the **GND** pad on the PDB, as shown in the image. Solder the wires at a slight angle (~10-20°) away from the board (as shown in Figure 6.9).
+Solder the **red (+)** IN wire to the **5V** pad on the PDB, and solder the **black (-)** IN wire to the **GND** pad on the PDB, as shown in the image. Solder the wires at a slight angle (~10-20°) away from the board.
 
 Note: Any of the tinned (+) pads will work; however, using the pad shown in the image will help with wire organization later on.
 
+<figure>
+    <figcaption>Red and black wires soldered to PDB (ignore the XT60 Battery Connector which you will solder onto the PDB in the next step)</figcaption>
+    <img style='width:300px' src="photos/pdbXT60.png"/>
+</figure>
 
 ## Solder the XT60 Battery Connector to the PDB
 
@@ -195,7 +199,7 @@ Note: Do not solder the wires flat against the PDB - solder them at ~20° angle 
 
 <figure>
     <figcaption>XT60 soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/proper_angle.png"/>
+    <img style='width:300px' src="photos/pdbFrameTopView.png"/>
 </figure>
 
 

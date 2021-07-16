@@ -220,12 +220,16 @@ At this point, your drone should look like the images below
 
 INSERT: 2 image views (side , angled) of drone
 
-<figure>
-    <figcaption>View 1</figcaption>
-    <img style='width:300px' src=""/>
-</figure>
 
-<figure>
-    <figcaption>View 2</figcaption>
-    <img style='width:300px' src=""/>
+<figure class="flow-subfigures">  
+    <figcaption>Pi Hat</figcaption>
+    <figure>
+       <figcaption>View 1</figcaption>
+       <img style='width:220px' src=""/>
+    </figure>
+    <figure>  
+       <figcaption>View 2</figcaption>
+       <img style='width:220px' src=""/>
+    </figure>
 </figure>
+ 

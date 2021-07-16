@@ -226,6 +226,8 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** A sensor that measures distance to an object by emmitting infrared beams and measuring the time it takes to be reflected back, then reports it on a wire.
 
 ## 1600mAh 3S 20C LiPo Battery 
+TODO: ADD PICTURE OF NEW BATTERY
+
 <figure>
     <img src="" width="250"/>
 </figure>  

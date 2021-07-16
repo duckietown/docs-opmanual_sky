@@ -49,7 +49,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 ## Power Distribution Board (PDB) 
 <figure>
     <figcaption>PDB</figcaption>
-    <img src="pdb_and_frame.png" width="250"/>
+    <img src="photos/pdb_and_frame.png" width="250" align="middle"/>
 </figure>  
 
 **Units:** 1  

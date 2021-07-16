@@ -20,7 +20,7 @@ TODO: REPLACE WITH PIC OF NEW FLIGHT CONTROLLER AND PIN
 
 <figure>
      <figcaption>Flight Controller</figcaption>
-    <img src="photos/newer-fc.png" width="300"/>
+    <img src="photos/Newer-FC.png" width="300"/>
 </figure>
 
 

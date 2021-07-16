@@ -165,20 +165,15 @@ Note: Be careful not to aggresively push the soldering iron tip into the PDB, as
 
 ***video tutorial***: [video instructions](https://drive.google.com/file/d/1xVlTBsAtarXKaJycGvJ66VYyJhe6loq3/view?usp=sharing)
 
-Note: For the remainder of the instructions, unless stated otherwise, **red** wires should be soldered to **positive (+)** pads and **black wires** should be soldered to **ground (-)** pads.
+Note: For the remainder of the instructions, unless stated otherwise, **red** wires should be soldered to **positive (+)** pads and **black wires** should be soldered to **ground (-)** pads. 
 
 ## Connecting the Pi Hat to the PDB
 
 ### Solder
 
-Solder the **red (+)** IN wire to the **5V** pad on the PDB, and solder the **black (-)** IN wire to the **GND** pad on the PDB, as shown in the image.
+Solder the **red (+)** IN wire to the **5V** pad on the PDB, and solder the **black (-)** IN wire to the **GND** pad on the PDB, as shown in the image. Solder the wires at a slight angle (~10-20°) away from the board (as shown in Figure 6.9).
 
 Note: Any of the tinned (+) pads will work; however, using the pad shown in the image will help with wire organization later on.
-
-<figure>
-    <figcaption>Ideal position of wires soldered to PDB</figcaption>
-    <img style='width:300px' src=""/>
-</figure>
 
 
 ## Solder the XT60 Battery Connector to the PDB
@@ -195,12 +190,12 @@ Solder the XT60 **red (+)** wire through the positive (+) Lipo 3-4s hole on the 
 
 Note: This wire is thin so when soldering, apply a lot of solder in order to fill up any gaps. It will take a while for the solder to melt. Make sure your soldering iron is turned all the way up and be patient.
 
-Note: 
+Note: Do not solder the wires flat against the PDB - solder them at ~20° angle away from the board. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
 
 <figure>
     <figcaption>XT60 soldered to PDB</figcaption>
-    <img style='width:300px' src=""/>
+    <img style='width:300px' src="photos/proper_angle.png"/>
 </figure>
 
 

@@ -18,10 +18,10 @@ First, we need to power the TOF sensor,
 
 2. Solder the **black** TOF Sensor Wire to the GND rail
 
-The other two wires can be placed into any 2 different rows. However, for the sake of wire management, it might be best to solder them as shown below.
+3. Solder the **blue** TOF Sensor Wire to the SDA rail
 
-Solder the **yellow** TOF Sensor Wire to any hole in the 3rd row from the bottom of the Pi hat  
-Solder the **blue** TOF Sensor Wire to any hole in the 4th row from the bottom of the Pi hat
+4. Solder the **yellow** TOF Sensor Wire to the SCL
+
 
 <figure>
    <figcaption>TOF sensor wires soldered to Pi Hat</figcaption>

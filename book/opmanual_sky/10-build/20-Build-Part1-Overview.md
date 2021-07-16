@@ -57,12 +57,11 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 
 ### Power Distribution Board (PDB)
 TODO: fix pdb image 
-<!--
 <figure>
-     <figcaption>Power Distribution Board</figcaption>
-    <img src="" width="200"/>
+     <figcaption>Power Distribution Board (PDB)</figcaption>
+    <img src="photos/pdb_and_frame2.png" width="200"/>
 </figure>
--->
+
 
 The Power Distribution Board is used to distribute power from the battery to electrical components of the drone. The PDB an example of Printed Circuit Board (PCB), which is a circuit board that has connections within its structure. For the PDB, the internal wiring connects all of the positive (+) pads together, and all of the negative (-) pads together; this allows for the battery to be connected to one set of positive and negative pads, and all of the other pads receive power.
 

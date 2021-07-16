@@ -1,18 +1,16 @@
-# Part 4: Camera, Propellers, and Mounting Hardware Overview {#build-part4-overview status=ready}
+# Part 4: Camera, Propellers, and Mounting Part 2 Overview {#build-part4-overview status=ready}
 
-In this section of the build, you will attach the camera, and finalize the drone assembly.
+In this section of the build, you will attach the camera, propellers, and finalize the drone assembly.
 
 - **Part : Quantity**
 - Raspberry Pi Camera : 1
-- Pi Mount : 1
-- Pi Mount Screws : 3
-- Brass Standoffs : 2
-- CW Propellors : 2
-- CCW Propellors : 2
+- CW Propellers : 2
+- CCW Propellers : 2
 - 8mm Wrench : 1
-- Battery Mount : 1
-- Hot glue gun : 1
+- Landing Gear: 4
 - Zip Ties : 10+
+- M2 6mm screws: 4
+- M2 nuts: 4
 
 ## Hardware
 
@@ -26,13 +24,13 @@ For more information about the camera, watch [these lectures](https://edge.edx.o
     <img src="photos/new-picam.png" width="300"/>
 </figure>
 
-### Propellors
-The propellors are what provide lift for the drone and allow it to fly. When the propellor spins, it creates a pressure difference between the air above and below it. The pressure below the propellor is greater than the pressure above, generating lift. Another way to think about how a drone prop works is that it pushes air down and the opposite reaction is the thrust lifting the drone up.
+### Propellers
+The propellers are what provide lift for the drone and allow it to fly. When the propeller spins, it creates a pressure difference between the air above and below it. The pressure below the propeller is greater than the pressure above, generating lift. Another way to think about how a drone prop works is that it pushes air down and the opposite reaction is the thrust lifting the drone up.
 
-Drone are specified by three numbers. The propellors on your drone are 5 x 4 x 3. The first number, 5, is the size and it indicates the length of the blades; measured from the center to the tip. The second number, 4, is the pitch and it is a theoretical measurement of how far the propellor would travel through the air in one revolution. A larger pitch means more air is moved, so the propellor travels further, while a smaller pitch would move less air and therefore move less. The last number, 3, is the number of blades.
+Drone are specified by three numbers. The propellers on your drone are 5 x 4 x 3. The first number, 5, is the size and it indicates the length of the blades; measured from the center to the tip. The second number, 4, is the pitch and it is a theoretical measurement of how far the propeller would travel through the air in one revolution. A larger pitch means more air is moved, so the propeller travels further, while a smaller pitch would move less air and therefore move less. The last number, 3, is the number of blades.
 
 <figure>
-     <figcaption>Propellors</figcaption>
+     <figcaption>Propellers</figcaption>
     <img src="photos/new-props.png" width="300"/>
 </figure>
 

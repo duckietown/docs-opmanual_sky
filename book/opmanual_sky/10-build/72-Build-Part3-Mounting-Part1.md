@@ -120,6 +120,11 @@ An ESC (i.e. Electronic Speed Control) is a component which requires power. It t
 
 Note: Do **not** solder the wires flat against the PDB - solder them at ~20&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.   
 
+### Connect the motors to the ESCs
+
+For each motor, connect its plug bullet connectors to the socket bullet connectors of the ESC in the motor’s corner (e.g. top-left motor connects to top-left ESC). Any connection order will suffice for now, as you will be able to change them in a latter phase.
+
+
 ### Attaching the Flight Controller
 Gather  
 - 4 M3 16mm screws and 4 nuts  

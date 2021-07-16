@@ -198,11 +198,11 @@ MAYBE: ADD PHOTO OF PINS THAT COME WITH FLIGHT CONTROLLER
     <figcaption>Flight Controller Board</figcaption>
     <figure>
         <figcaption>View 1</figcaption>
-        <img style='width:150px' src="photos/fcView1.png"/>
+        <img style='width:130px' src="photos/fcView1.png"/>
     </figure>
     <figure>  
         <figcaption>View 2</figcaption>
-        <img style='width:150px' src="photos/fcView2.png"/>
+        <img style='width:130px' src="photos/fcView2.png"/>
     </figure>
 </figure>  
 

@@ -215,11 +215,11 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 ## Time of Flight Sensor (TOF) + TOF Sensor Cable 
 <figure>
-    <img src="" width="250"/>
+    <img src="photos/tofSensor2.png" width="250"/>
 </figure>  
 
 **Units:** 1  
-**Description:** A sensor that measures distance to an object using infrared beams, then reports it on a wire.
+**Description:** A sensor that measures distance to an object by emmitting infrared beams and measuring the time it takes to be reflected back, then reports it on a wire.
 
 ## 1600mAh 3S 20C LiPo Battery 
 <figure>

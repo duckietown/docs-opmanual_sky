@@ -1,4 +1,4 @@
-# Part 3: Flight Controller and Cleanflight Checkpoint {#build-part3-FC-checkpoint status=ready}
+# Part 4: Flight Controller and Cleanflight Checkpoint {#build-part4-FC-checkpoint status=ready}
 
 **Expected Time**: 20 minutes
 

@@ -44,11 +44,9 @@ Note: Don't include the quotation marks when copying the command.
 
 You'll be asked to enter the drone's password, this is the same as the password for the wifi *bigbubba
 
-You'll know the command was successful if 
-
 <figure>  
-   <figcaption>Picture of succesful command run</figcaption>
-   <img style='width:216px' src="photos/sucessful_overwrite.png"/>
+   <figcaption>Example of a successul command run</figcaption>
+   <img style='width:150px' src="photos/Successful-overwrite.png"/>
 </figure>
 
 ## Reading the TOF sensor on the web interface

@@ -30,7 +30,7 @@ For each ESC:
 1. Put a heat shrink over each solder joint. For socket connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
  
 <figure>  
-    <figcaption>Put Heat Shrinks on Socket Bullet Connectors</figcaption>
+    <figcaption>Put Heat Shrinks on Socket Bullet Connectors (ignore the fact that the ESCs shown in these pictures are slightly different than those you are using)</figcaption>
     <figure>
         <figcaption>Socket Bullet Connectors on ESCs</figcaption>
         <img style='width:250px' src="photos/bullet_connectors_in_esc.jpg"/>
@@ -89,6 +89,8 @@ Visually inspect each ESC and verify that the heat shrinks are on properly; ther
 Solder the short edge of the straight pins to the flight controller.
 
 Note: Be sure that direction you solder the pins into the board is exactly as shown in the images
+
+TODO: REPLACE ALL PICTURES BELOW W/ RELEVANT ONES OF THE NEW FLIGHT CONTROLLER
 
 <figure class="flow-subfigures">  
     <figcaption>Solder FC Pins</figcaption>

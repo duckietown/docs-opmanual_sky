@@ -113,11 +113,11 @@ Cut off about 4.5 inches of both the red and black wire
    <figcaption> Wire preparation</figcaption>
    <figure>
        <figcaption>Wires pre-cut</figcaption>
-       <img style='width:250px' src=""/>
+       <img style='width:250px' src="photos/red_black_wires_pre.png"/>
    </figure>
    <figure>
        <figcaption>Wires post-cut (not yet stripped)</figcaption>
-       <img style='width:250px' src=""/>
+       <img style='width:250px' src="photos/red_black_wires_post.png"/>
    </figure>
 </figure>
 
@@ -135,7 +135,7 @@ Solder the **red (+)** OUT wire to the +5V Rail, and solder the **black (-)** OU
 
  <figure>
      <figcaption>Wires Soldered to Pi Hat</figcaption>
-     <img style='width:250px' src=""/>
+     <img style='width:250px' src="photos/wires_soldered_to_piHat.png"/>
  </figure>
 
 <div class='check' markdown="1">

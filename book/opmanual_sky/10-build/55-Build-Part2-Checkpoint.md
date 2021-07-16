@@ -46,6 +46,11 @@ You'll be asked to enter the drone's password, this is the same as the password 
 
 You'll know the command was successful if 
 
+<figure>  
+   <figcaption>Picture of succesful command run</figcaption>
+   <img style='width:216px' src="photos/sucessful_overwrite.png"/>
+</figure>
+
 ## Reading the TOF sensor on the web interface
 
 You will now checks to see if the TOF sensor on your drone is working properly. You will using the drone software and the web interface to see drone's height estimate.

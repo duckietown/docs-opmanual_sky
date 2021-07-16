@@ -58,7 +58,7 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 ### Power Distribution Board (PDB)
 <figure>
      <figcaption>Power Distribution Board (PDB)</figcaption>
-    <img src="photos/pdb_and_frame2.png" width="200"/>
+    <img src="photos/pdb_and_frame2.png" width="250"/>
 </figure>
 
 

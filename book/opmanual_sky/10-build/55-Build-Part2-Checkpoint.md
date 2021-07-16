@@ -28,9 +28,9 @@ You will now checks to see if the TOF sensor on your drone is working properly. 
 
 ### Making edits for the Lidar sensor
 1. Remain connected to the drone's wifi.
-2. Download this file and keep in your downloads folder: 
-3. Open up the terminal on your laptop and run the following command (Fill in your set drone username and the drone's ip address):
-    scp ~/Downloads/lidar_sensor_node.py username@192.drone.ip???.42:/path/to/scripts/folder/in/drone/from/the/orignal/slash/lidar_sensor_node.py
+2. Download this file and store in your downloads folder: [TOF sensor script](https://drive.google.com/file/d/1kzBh2y72ne7w9zU3RDL48IB1u5xJhhaF/view?usp=sharing)
+3. Open up the terminal on your laptop and run the following command (Fill in your set drone username and the drone's ip address):  
+scp ~/Downloads/lidar_sensor_node.py username@192.drone.ip???.42:/path/to/scripts/folder/in/drone/from/the/orignal/slash/lidar_sensor_node.py
 
 
 ### Test

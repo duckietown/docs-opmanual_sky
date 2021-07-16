@@ -19,11 +19,14 @@ First, we will reintroduce you to the components that you will be working with. 
 - Raspberry Pi : 1
 - Heat Sinks : 1 set
 - Micro SD Card : 1
-- Base Station : 1
+- Bottom Platform : 1
 - Red and Black Spare wires : 1
 - Micro SD Card Reader : 1
 - LED : 1
 - Resistor : 1
+- M3 12mm Screws : 4
+- M3 Nuts: 4
+
 
 ## Detailed Hardware Descriptions
 
@@ -98,6 +101,13 @@ The Micro SD card stores the operating system on the pi, as well as all of the s
     <img style='width:150px' src="photos/new-sd.png"/>
 </figure>
 
+### Bottom Platform
+
+<figure>
+    <figcaption>Bottom Platform</figcaption>
+    <img style='width:150px' src=""/>
+</figure>
+
 ### Light Emitting Diode (LED)
 
 <figure>  
@@ -134,7 +144,7 @@ Remark: if you have poor eyesight or experience difficulty seeing colors, it is 
 
 <figure>  
   <figcaption> XT60 Connector </figcaption>
-  <img style='width:216px' src="new-xt60.png"/>
+  <img style='width:216px' src="photos/new-xt60.png"/>
 </figure>
 
 

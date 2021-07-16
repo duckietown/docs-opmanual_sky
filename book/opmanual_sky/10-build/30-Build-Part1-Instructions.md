@@ -271,20 +271,9 @@ Attach the heat sinks to the Pi as shown in the pictures.
 
 Align the 2x40 GPIO pins on the Raspberry Pi with the 2x40 pin header that you soldered to the Pi Hat as shown in the image. (please ignore additional wires on the Pi Hat)
 
-<figure>
-    <figcaption>Pi Hat lined up</figcaption>
-    <img style='width:300px' src=""/>
-</figure>
-
 ### Press down
 
 Press the pin header down onto the GPIO pins to connect the Pi Hat
-
-<figure>
-    <figcaption>Pi Hat lined up</figcaption>
-    <img style='width:300px' src=""/>
-</figure>
-
 
 ## Final Steps
 
@@ -304,14 +293,4 @@ Insert your (now flashed) SD card into the SD card slot on the bottom of the Pi.
 
 Note: The SD card direction does matter - the lettering on the SD card should be facing downward.
 
-<figure class="flow-subfigures">  
-    <figcaption>SD Card inserted in the Pi</figcaption>
-    <figure>
-        <figcaption>Top View</figcaption>
-        <img style='width:230px' src=""/>
-    </figure>
-    <figure>  
-        <figcaption>Bottom View</figcaption>
-        <img style='width:230px' src=""/>
-    </figure>
-</figure>  
+

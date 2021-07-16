@@ -16,6 +16,8 @@ In this phase of the build, you will configure and calibrate the Flight Controll
 
 The flight controller (i.e. FC) contains multiple sensors: an Inertial Measurement Unit (IMU) and a gyroscope. The IMU measures linear accelerations and the gyroscope measures angular velocities. The flight controller also receives commands from the Pi and them sends electric signals to the ESCs which in turn change the speeds of the motors.
 
+TODO: REPLACE WITH PIC OF NEW FLIGHT CONTROLLER AND PIN
+
 <figure>
      <figcaption>Flight Controller</figcaption>
     <img src="photos/new-fc.png" width="300"/>

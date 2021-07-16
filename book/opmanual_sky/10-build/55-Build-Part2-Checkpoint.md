@@ -46,7 +46,7 @@ You'll be asked to enter the drone's password, this is the same as the password 
 
 <figure>  
    <figcaption>Example of a successul command run</figcaption>
-   <img style='width:150px' src="photos/Successful-overwrite.png"/>
+   <img style='width:220px' src="photos/Successful-overwrite.png"/>
 </figure>
 
 ## Reading the TOF sensor on the web interface

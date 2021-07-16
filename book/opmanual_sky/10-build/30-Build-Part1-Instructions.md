@@ -116,7 +116,7 @@ Cut off about 4.5 inches of both the red and black wire
        <img style='width:200px' src="photos/red_black_wires_pre.png"/>
    </figure>
    <figure>
-       <figcaption>Wires post-cut (not yet stripped)</figcaption>
+       <figcaption>Wires post-cut (stripped and tinned)</figcaption>
        <img style='width:200px' src="photos/red_black_wires-post.png"/>
    </figure>
 </figure>

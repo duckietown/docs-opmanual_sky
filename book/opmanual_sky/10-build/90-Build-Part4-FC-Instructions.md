@@ -4,45 +4,8 @@
 
 <figure>
     <figcaption>Orientation of Drone Frame</figcaption>
-    <img style='width:200px' src="photos/drone_frame_labeled_orientation.jpg"/>
+    <img style='width:200px' src=""/>
 </figure>
-
-Note: the white plastic tabs will need to hang off the frame for the flight controller to sit level.
-
-<figure class="flow-subfigures">  
-<figcaption>FC attached to drone frame</figcaption>
-     <figure>
-          <figcaption>Top View</figcaption>
-          <img style='width:220px' src="fc-attached.jpg"/>
-     </figure>
-     <figure>
-          <figcaption>Bottom View</figcaption>
-          <img style='width:220px' src="fc-tabs.png"/>
-     </figure>
-</figure>
-
-
-Note:  Try to minimize the FC skew as much as possible. (the following photos are an example of skew. ignore the difference of flight controller).
-
-<figure class="flow-subfigures">  
-     <figcaption>Attach FC (bottom-up view)</figcaption>
-     <figure>
-         <figcaption>FC without Skew</figcaption>
-         <img style='width:220px' src="photos/fc_attached_no_skew.jpg"/>
-     </figure>
-     <figure>  
-         <figcaption>FC with Skew</figcaption>
-         <img style='width:220px' src="photos/fc_attached_skew.jpg"/>
-     </figure>
-</figure>
-
-
-<div class='check' markdown="1">
-
-Once the FC is attached, do a "rock test" (i.e. try to rock the FC back-and-forth by pushing the corners). If the FC rocks, then the double sided mounting tape used is too soft and is compressing under pressure. Detach the FC from the frame (e.g. _carefully_ use a flat-head screwdriver) and replace the tape with more robust tape.
-
-</div>
-
 
 ## Download the required software and files
 
@@ -70,8 +33,15 @@ On your base station, install [Cleanflight](http://cleanflight.com/) (you will n
 
 ## Flash the firmware
 
-Please follow the written instructions below to flash firmware onto your flight controller. If you are having trouble flashing, please follow [this video](https://drive.google.com/file/d/1F73czx0B381jY2ls-R7TQQ2HCC185t96/view?usp=sharing) to flash the flight controller with the boot pins shorted.
+Please follow the written instructions below to flash firmware onto your flight controller. If you are having trouble flashing, please follow [this video](https://drive.google.com/file/d/1F73czx0B381jY2ls-R7TQQ2HCC185t96/view?usp=sharing) to flash the flight controller with the boot pins shorted.  
 
+Note: This version of the Duckiedrone includes a different flight controller than the one in the video above. The picture below highlights where the boot pins are located for the new flight controller. You might find it easier to twist up pieces of solder and press that against the boot pins in order to short them.
+
+
+<figure>
+   <figcaption>Boot pins on flight controller </figcaption>
+   <img style='width:500px' src=""/>
+</figure>
 ### Open the firmware flasher
 
 1. Launch CleanFlight

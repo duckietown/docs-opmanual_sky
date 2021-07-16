@@ -68,9 +68,11 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 **Description:** The power connector cable that transfers power from the battery to the PDB.
 
 ## 2205 2300KV Brushless Motor 
+<!--
 <figure>
     <img src="" width="200"/>
 </figure>  
+-->
 
 **Description:** An actuator that spins at variable speeds. Although brushless motors can spin in either direction, the motor shafts are threaded so that as the propellor spins, it does not loosen the nut and fly off. You can identify which direction a motor should spin by noticing the direction of the arrows on top.
 

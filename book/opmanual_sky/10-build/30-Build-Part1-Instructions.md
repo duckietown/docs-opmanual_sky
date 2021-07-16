@@ -192,9 +192,8 @@ Note: Any of the tinned (+) pads will work; however, using the pad shown in the 
 
 Solder the XT60 **red (+)** wire through the positive (+) Lipo 3-4s hole on the PDB, and solder the **black (-)** wire throught the ground (-) Lipo 3-4s hole on the PDB, as shown in the image.
 
-Note: This wire is thin so when soldering, apply a lot of solder in order to fill up any gaps. It will take a while for the solder to melt. Make sure your soldering iron is turned all the way up and be patient.
-
-Note: Do not solder the wires flat against the PDB - solder them at ~20° angle away from the board. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
+Note: This wire is thin so when soldering, apply a lot of solder in order to fill up any gaps. It will take a while for the solder to melt. Make sure your soldering iron is turned all the way up and be patient.  
+Do not solder the wires flat against the PDB - solder them at ~20° angle away from the board. If you solder them flat, then you will not be able to fit the PDB into the drone frame.
 
 
 <figure>
@@ -203,7 +202,6 @@ Note: Do not solder the wires flat against the PDB - solder them at ~20° angle 
 </figure>
 
 
-<div class='check' markdown="1">
 
 ### Attaching PDB to Frame
 
@@ -219,6 +217,7 @@ Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform.
 </figure>
 
 
+<div class='check' markdown="1">
 
 ### Checkpoint
 Visually inspect the drone to verify the following:

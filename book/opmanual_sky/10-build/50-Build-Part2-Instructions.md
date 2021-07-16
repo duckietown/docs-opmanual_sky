@@ -22,11 +22,12 @@ First, we need to power the TOF sensor,
 
 4. Solder the **yellow** TOF Sensor Wire to the SCL
 
-
+<!--
 <figure>
    <figcaption>TOF sensor wires soldered to Pi Hat</figcaption>
    <img style='width:300px' src=""/>
 </figure>
+-->
 
 <div class='check' markdown="1">
 

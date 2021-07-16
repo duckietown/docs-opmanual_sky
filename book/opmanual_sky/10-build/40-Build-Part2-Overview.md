@@ -13,7 +13,7 @@ In this part of the build, you will be adding your first sensor to the drone -- 
 ## Required Materials
 You will need Build Part 1 completed before you can begin this build part.
 
-- **Part : Quantity**
+**Part : Quantity**
 - TOF Sensor and Wire : 1
 - Soldering Tools
 

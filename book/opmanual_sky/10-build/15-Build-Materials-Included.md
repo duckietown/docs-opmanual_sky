@@ -48,7 +48,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 ## Power Distribution Board (PDB) 
 <figure>
-    <figcaption>PDB</figcaption>
+    <figcaption>PDB-XT60</figcaption>
     <img src="photos/pdb_and_frame.png" width="250" align="middle"/>
 </figure>  
 

@@ -211,7 +211,7 @@ Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform.
 
 <figure>
     <figcaption>PDB attached to Bottom Platform</figcaption>
-    <img style='width:300px' src=""/>
+    <img style='width:300px' src="photos/pdb_and_frame.png"/>
 </figure>
 
 

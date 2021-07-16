@@ -37,11 +37,19 @@ Please follow the written instructions below to flash firmware onto your flight 
 
 Note: This version of the Duckiedrone includes a different flight controller than the one in the video above. The picture below highlights where the boot pins are located for the new flight controller. You might find it easier to twist up pieces of solder and press that against the boot pins in order to short them.
 
-
-<figure>
-   <figcaption>Boot pins on flight controller </figcaption>
-   <img style='width:500px' src=""/>
+<figure class="flow-subfigures">  
+    <figure>
+      <figcaption>Boot pins on flight controller </figcaption>
+   <img style='width:200px' src="photos/FC-boot-pin-highlighted.png"/>
+    </figure>
+    <figure>  
+      <figcaption>Shorted Boot pins on flight controller</figcaption>
+   <img style='width:200px' src="photos/FC-shorted-boot-pin.png"/>
+    </figure>
 </figure>
+
+
+
 ### Open the firmware flasher
 
 1. Launch CleanFlight
@@ -126,6 +134,7 @@ Go to "Configuration" tab on the left side of cleanflight
 </figure>
 
 - Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame).
+- Flip the roll by 180&deg; (because the FC is mounted upside down)
 
 <figure>
    <figcaption>Flip Yaw</figcaption>

@@ -103,7 +103,7 @@ The Micro SD card stores the operating system on the pi, as well as all of the s
 
 <figure>
     <figcaption>Bottom Platform of Frame</figcaption>
-    <img style='width:150px' src="photos/bottomplatform.jpg"/>
+    <img style='width:120px' src="photos/bottomplatform.jpg"/>
 </figure>
 
 ### Light Emitting Diode (LED)

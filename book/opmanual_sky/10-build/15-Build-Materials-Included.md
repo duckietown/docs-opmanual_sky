@@ -31,7 +31,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 <figure>
     <figcaption>Screws (from left to right: M3 16mm, M3 12mm, M3 10mm, M3 6mm)</figcaption>
-    <img src="photos/screws.jpg" width="250"/>
+    <img src="photos/screws.jpg" width="315"/>
 </figure>  
 
 **Units:** M3 6mm(11), M3 10mm(18), M3 12mm(22), M3 16mm(5), M2 6mm(5)
@@ -40,8 +40,8 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 ### Nuts 
 
 <figure>
-    <figcaption>Nuts(from left to right: M3, M2)</figcaption>
-    <img src="photos/nuts.jpg" width="250"/>
+    <figcaption>Nuts (from left to right: M3, M2)</figcaption>
+    <img src="photos/nuts.jpg" width="315"/>
 </figure>  
 
 **Units:** M3(50), M2(5)

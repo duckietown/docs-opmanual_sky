@@ -56,7 +56,6 @@ The "C" rating of a LiPo Battery determines how much current the battery can del
 [Review the safety information on the battery](#build-safety-battery). Take the proper precautions when using, storing, or charging is very important to keeping the battery safe. Only store the battery at room temperature and out of direct sun light.  Do not discharge a battery below 10.5 V. **Never** leave the battery charging unattended. Unplug the battery once it is fully charged.
 
 ### Power Distribution Board (PDB)
-TODO: fix pdb image 
 <figure>
      <figcaption>Power Distribution Board (PDB)</figcaption>
     <img src="photos/pdb_and_frame2.png" width="200"/>

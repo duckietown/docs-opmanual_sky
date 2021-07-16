@@ -37,10 +37,14 @@ Now, we're going to find out the path to our downloaded script.
 
 ### Making edits for the Lidar sensor
 1. Remain connected to the drone's wifi.
-3. Open up the terminal on your laptop and run the following command (Fill in your set drone username, the drone's ip address, and the specified pathways):  
+3. Open up the terminal on your laptop and run the following command (Fill in duckiesky for username, the drone's ip address, and the specified pathways):  
 "scp *Pathway to downloaded script* username@192.drone.ip???.42: *Pathway to current Infrared Script*"  
 
 Note: Don't include the quotation marks when copying the command.
+
+You'll be asked to enter the drone's password, this is the same as the password for the wifi *bigbubba
+
+You'll know the command was successful if 
 
 ## Reading the TOF sensor on the web interface
 

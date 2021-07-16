@@ -9,16 +9,10 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/new-box.png" width="250" align="middle"/>
 </figure>
 
-
-## All materials included in the kit
-<figure>
-    <img src="" width="500" align="middle"/>
-</figure>
-
 ## Frame Kit
 <figure>
     <figcaption>Drone Frame</figcaption>
-    <img src="" width="250" align="middle"/>
+    <img src="photos/laid_out_carbonfiber_frame.png" width="250" align="middle"/>
 </figure>
 
 **Units:** 1  

@@ -37,11 +37,11 @@ For reference, here are the motor directions with respect to the frame:
 - Sandwich Platform: 2
 - Propeller Guards: 4
 - M3 Screws:  
- 6mm: 9  
- 10mm:  
- 12mm: 16  
- 16mm: 4
-- M3 Nuts: 29
+    6mm: 9  
+    10mm:  
+    12mm: 16  
+    16mm: 4
+- M3 Nuts: 21
 - Soldering Tools
 - Standoffs: 4
 - Screwdriver: 1
@@ -85,7 +85,7 @@ Layer the arms and the propeller guards as shown below.
 
 ### Attach clockwise (CW) motors
 
-Attach CW motors to the bottom-right and top-left of the drone frame, using 4 black long bolts (included with the motors) for each attachment to the layered arms and propeller guards.
+Attach CW motors to the bottom-right and top-left of the drone frame, using 4 black long bolts (included with the motors) for each attachment to the layered arms and propeller guards. Tighten with Hex key.
 
 Note: Align the motors so the wires point towards the frame.
 
@@ -97,15 +97,15 @@ Note: Align the motors so the wires point towards the frame.
 
 ### Attach Counter-Clockwise (CCW) Motors
 
-Attach CCW motors to the bottom-left and top-right of the drone frame, using 4 black long bolts (included with the motors) for each attachment to the layered arms and propeller guards.
+Attach CCW motors to the bottom-left and top-right of the drone frame, using 4 black long bolts (included with the motors) for each attachment to the layered arms and propeller guards. Tighten with Hex key.
 
 Note: Align the motors so the wires point towards the frame.
 
 **Insert Picture of screwed on CW layered motors with layered arms and propeller.
 
 <figure>
-    <figcaption>Velcro through Drone Frame</figcaption>
-    <img style='width:350px' src="photos/velcro_in_frame.jpg"/>
+    <figcaption>Top view of Motor attachment</figcaption>
+    <img style='width:350px' src=""/>
 </figure>
 
 ### Solder ESCs to the PDB
@@ -122,24 +122,110 @@ Note: Do **not** solder the wires flat against the PDB - solder them at ~20&deg;
 
 ### Attaching the Flight Controller
 Gather  
-4 M3 16mm screws and 4 nuts  
-Flight Controller  
-Soldering Tools  
+- 4 M3 16mm screws and 4 nuts  
+- Flight Controller  
+- Soldering Tools  
 
+### Attaching Flight Controller
+
+The flight controller will be installed upside down unto the bottom platform. It's important that the flight controller is mounted straight and with as little skew as possible. See Pictures below.
+
+
+<figure>
+    <figcaption>Flight controller mounted</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
 
 ### Solder leads to PDB
 
-Solder the othe end of the 1.5 inch red and black wires to the PDB. Due to limited PDB pads, you will need to solder onto another pair of wires. The red wire should connect to a positive (+) pad and the black wire should connect to a negative (-) pad.
+Solder the other end of the 1.5 inch red and black wires to the PDB. Due to limited PDB pads, you will need to solder onto another pair of wires. The red wire should connect to a positive (+) pad and the black wire should connect to a negative (-) pad.
 
 <figure>
     <figcaption>Battery Monitor Lead Soldered to PDB</figcaption>
     <img style='width:300px' src=""/>
 </figure>
 
-Note: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands.  
+Note: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands. 
 
 
 
+## Assembling the Frame
+
+At this point, You should have the following set up
+
+**INSERT: Image of Frame after following instructions above
+
+<figure>
+    <figcaption>Checkpoint</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+Now, we'll assemble the rest of the frame. Then mount the Raspberry pi and TOF sensor
+
+Gather:  
+Standoffs: 4
+Top Platform: 1
+M3 6mm Screws: 9
+M3 nuts: 1
+Raspberry pi
+Pi hat
+Screwdriver
+
+Flip the Bottom platform/ Arm assembly over to the top side ( Pressnuts facing up). 
+Screw in the standoffs to the 4 empty pressnuts.
+
+INSERT: image of standoffs screwed in
+
+<figure>
+    <figcaption>Drone frame with standoffs</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+Line up the holes on top platform with the holes at the top of the standoffs. Use 4 6mm M3 screws to attach the top platform to the standoffs
+
+INSERT: image of top platform screwed in
+
+<figure>
+    <figcaption>Drone frame with top platform attached</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+If not already detached, detach the Pi hat from the raspberry pi and set aside. Take care that the wires reaching from the pi hat to the PDB are not tangled or caught between any platforms.
+
+Using 4 6mm M3 Screws, attach the Raspberry pi to the top platform. It should be screwed into pressnuts embedded in the top platform. 
+Note: Orient the Raspberry pi so the USB ports are facing the side of the frame the flight controller is mounted on.
+
+INSERT: image of raspberry pi screwed into top platform 
+
+<figure>
+    <figcaption>Drone frame with Raspberry Pi attached</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+Now, reattach the Pi hat to the mounted pi. Lastly, we'll mount the TOF sensor to the frame. 
+The TOF sensor will be positioned at the back of the drone using a 6mm M3 and a M3 nut, extend the TOF sensor wire from the pi hat through the opening in the top platform down to the bottom platform.
+Ensure the sensor is not skewed. See figure below.
+
+INSERT: image of TOF screwed into top platform 
+
+<figure>
+    <figcaption>Mounted TOF sensor</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+## Checkpoint of drone assembly
+
+At this point, your drone should look like the images below
 
 
+INSERT: 2 image views (side , angled) of drone
 
+<figure>
+    <figcaption>View 1</figcaption>
+    <img style='width:300px' src=""/>
+</figure>
+
+<figure>
+    <figcaption>View 2</figcaption>
+    <img style='width:300px' src=""/>
+</figure>

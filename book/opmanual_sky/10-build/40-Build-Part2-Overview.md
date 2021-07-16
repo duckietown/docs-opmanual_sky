@@ -22,11 +22,9 @@ You will need Build Part 1 completed before you can begin this build part.
 ### Time of Flight (TOF) Sensor
 The TOF sensor is used to measure distance. On the drone, we use this sensor to measure the height of the drone above the ground. The sensor works by emitting infrared light from one side, and measuring the time it takes for the light to be reflected back to the sensor. Based on this value and the known speed of light, the distance traveled can be calculated. Therefore, the sensor on the drone is able to determine the instantaneous height of the drone during flight.
 
-TODO: insert the time of flight sensor and wire picture
-
 <figure>
     <figcaption>Time of Flight Sensor and Wire</figcaption>
-    <img style='width:200px' src=""/>
+    <img style='width:200px' src="photos/tofSensor2.png"/>
 </figure>
 
 ## Build Progress

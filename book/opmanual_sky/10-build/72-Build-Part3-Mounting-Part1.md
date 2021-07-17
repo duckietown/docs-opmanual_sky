@@ -15,11 +15,12 @@ For reference, here are the motor directions with respect to the frame:
     <img style='width:400px' src="photos/motor_directions.png"/>
 </figure>
 
+<!--
 <figure>
     <figcaption>Labeled drone</figcaption>
     <img style='width:200px' src=""/>
 </figure>
-
+-->
 ## Required Materials
 
 **Part : Quantity**

@@ -8,23 +8,23 @@ First, we will reintroduce you to the components that you will be working with. 
 
 ## Required Materials
 
-**Part : Quantity**
-- Battery : 1
-- Battery Charger : 1
-- Battery Charging Adapter : 1
-- Power Distribution Board : 1
-- Pi Hat : 1
-- XT60 Connector : 1
-- Soldering Tools : 1
-- Raspberry Pi : 1
-- Heat Sinks : 1 set
-- Micro SD Card : 1
-- Bottom Platform : 1
-- Red and Black Spare wires : 1
-- Micro SD Card Reader : 1
-- LED : 1
-- Resistor : 1
-- M3 12mm Screws : 4
+**Part : Quantity**  
+- Battery : 1. 
+-  Battery Charger : 1. 
+- Battery Charging Adapter : 1  
+- Power Distribution Board : 1  
+- Pi Hat : 1  
+- XT60 Connector : 1  
+- Soldering Tools : 1  
+- Raspberry Pi : 1  
+- Heat Sinks : 1 set  
+- Micro SD Card : 1  
+- Bottom Platform : 1  
+- Red and Black Spare wires : 1  
+- Micro SD Card Reader : 1  
+- LED : 1  
+- Resistor : 1  
+- M3 12mm Screws : 4  
 - M3 Nuts: 4
 
 

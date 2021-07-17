@@ -9,8 +9,8 @@ First, we will reintroduce you to the components that you will be working with. 
 ## Required Materials
 
 **Part : Quantity**  
-- Battery : 1. 
--  Battery Charger : 1. 
+- Battery : 1 
+-  Battery Charger : 1 
 - Battery Charging Adapter : 1  
 - Power Distribution Board : 1  
 - Pi Hat : 1  

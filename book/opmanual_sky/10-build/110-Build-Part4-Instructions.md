@@ -130,7 +130,7 @@ Use the 8 mm wrench to tighten the bolts down so that the bottom of the propelle
 </div>
 
 
-## Attach Landing Gear
+## Landing Gear
 
 Place the slimmer side of each arm into the opening on the landing gear. Then gently slide the landing gear upwards until it can not be pushed further. 
 

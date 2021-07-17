@@ -137,6 +137,13 @@ Remark: if you have poor eyesight or experience difficulty seeing colors, it is 
     <img style='width:250px' src="photos/resistor-color-chart.png"/>
 </figure>
 
+### Heat Sinks 
+<figure>
+    <img src="photos/new-heat-sinks.png" width="250"/>
+</figure>  
+
+A device that helps dissipate heat. Heat sinks help to keep computer processors cool.
+
 
 ### XT60 Connector
 

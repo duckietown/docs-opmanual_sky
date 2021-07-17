@@ -49,7 +49,7 @@ An Electronic Speed Controller (ESC) is used to regulate the speed of a motor ac
 
 Bullet connectors are used to connect two wires together in a way that allows them to be disconnected easily. It is useful to use these to connect the motors to the ECSs because if a motor is spinning in the wrong direction, you can simply switch two of the motor/ESC connections and the motor direction will reverse (more on this Later). Additionally, If an ESC or motor goes bad, bullet connectors makes it easier to swap out those parts.
 
-<figure class="flow-subfigures">  
+<figure class="flow-subfigures-2">  
     <figcaption>Bullet Connectors</figcaption>
     <figure>
        <figcaption>Socket</figcaption>

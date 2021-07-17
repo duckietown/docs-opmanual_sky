@@ -198,6 +198,7 @@ INSERT: image of top platform screwed in
 If not already detached, detach the Pi hat from the raspberry pi and set aside. Take care that the wires reaching from the pi hat to the PDB are not tangled or caught between any platforms.
 
 Using 4 6mm M3 Screws, attach the Raspberry pi to the top platform. It should be screwed into pressnuts embedded in the top platform. 
+
 Note: Orient the Raspberry pi so the USB ports are facing the side of the frame the flight controller is mounted on.
 
 INSERT: image of raspberry pi screwed into top platform 

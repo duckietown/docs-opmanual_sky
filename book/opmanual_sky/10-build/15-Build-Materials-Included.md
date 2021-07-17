@@ -30,12 +30,13 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 ### Screws 
 
 <figure>
-    <figcaption>Screws (from left to right: M3 16mm, M3 12mm, M3 10mm, M3 6mm)</figcaption>
+    <figcaption>Screws (from left to right: M3 16mm, M3 12mm, M3 10mm, M3 6mm, M2 6mm)</figcaption>
     <img src="photos/screws.jpg" width="315"/>
 </figure>  
 
-**Units:** M3 6mm(11), M3 10mm(18), M3 12mm(22), M3 16mm(5), M2 6mm(5)
-**Description:** Small screws that are used for component mounting and frame assembly. Note that your kit may come with five extra 8mm screws. You can ignore these as they will not be used in your build.
+**Units:** M3 6mm(11), M3 8mm(5), M3 10mm(18), M3 12mm(22), M3 16mm(5), M2 6mm(5)  
+**Description:** Small screws that are used for component mounting and frame assembly.  
+Note: that your kit may come with five extra 8mm screws. You can ignore these as they will not be used in your build.
 
 ### Nuts 
 
@@ -44,7 +45,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
     <img src="photos/nuts.jpg" width="315"/>
 </figure>  
 
-**Units:** M3(50), M2(5)
+**Units:** M3(50), M2(5)  
 **Description:** Small nuts that are used for component mounting and frame assembly. 
 
 

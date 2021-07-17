@@ -20,3 +20,9 @@ This video provides an overview of the platform and some of the work that was do
 This blog post demonstrates the DuckieDrone as a research platform that combines natural language processing and mixed reality.
 
 [link to blog post](https://h2r.cs.brown.edu/natural-language-augmented-reality-and-drones/)
+
+## Duckiedrone V2
+
+Members of the Duckiesky Hardware and Curriculum team (Summer 2021) were responsible for the transition to the 2nd edition version of the Duckiedrone:  
+
+Rachel Ma, Alvin Massenat, Gideon Ogunwale, Zaul Tavangar

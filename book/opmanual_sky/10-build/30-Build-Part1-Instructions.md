@@ -154,7 +154,7 @@ Similar to exposed wires, the metal pads on a PDB need to be tinned. This will a
 
 1. Review the [pad-tinning tutorial](#prereq-tin-pad)
 
-1. Tin every pad on the PDB, **except** the 5V and 12V pads.
+1. Tin every pad on the PDB, **including** the 5V and GND pads.
 
 Note: Be careful not to aggresively push the soldering iron tip into the PDB, as too much force will cut the pads right off!
 

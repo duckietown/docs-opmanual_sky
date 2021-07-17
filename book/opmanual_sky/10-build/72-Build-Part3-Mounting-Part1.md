@@ -149,12 +149,14 @@ The flight controller will be installed upside down unto the bottom platform. It
 ### Solder leads to PDB
 
 Solder the other end of the 1.5 inch red and black wires to the PDB. Due to limited PDB pads, you will need to solder onto another pair of wires. The red wire should connect to a positive (+) pad and the black wire should connect to a negative (-) pad.
+
 <!--
 <figure>
     <figcaption>Battery Monitor Lead Soldered to PDB</figcaption>
     <img style='width:300px' src=""/>
 </figure>
 -->
+
 Note: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands. 
 
 

@@ -36,6 +36,7 @@ Note: Depending on the hardware version of your drone kit, the components may lo
 
 **Units:** M3 6mm(11), M3 8mm(5), M3 10mm(18), M3 12mm(22), M3 16mm(5), M2 6mm(5)  
 **Description:** Small screws that are used for component mounting and frame assembly.  
+
 Note: that your kit may come with five extra 8mm screws. You can ignore these as they will not be used in your build.
 
 ### Nuts 

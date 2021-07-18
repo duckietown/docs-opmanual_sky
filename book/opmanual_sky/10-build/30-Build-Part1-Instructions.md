@@ -185,7 +185,7 @@ Do not solder the wires flat against the PDB - solder them at ~20° angle away f
 
 <figure>
     <figcaption>XT60 soldered to PDB</figcaption>
-    <img style='width:300px' src="photos/pdbFrameTopView.png"/>
+    <img style='width:300px' src="photos/XT-Connector- Soldered.png"/>
 </figure>
 
 
@@ -199,7 +199,7 @@ Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform.
 
 <figure>
     <figcaption>PDB attached to Bottom Platform</figcaption>
-    <img style='width:300px' src="photos/pdb_and_frame.png"/>
+    <img style='width:300px' src="photos/PDB-attachment.png"/>
 </figure>
 
 

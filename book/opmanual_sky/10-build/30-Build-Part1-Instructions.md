@@ -107,7 +107,7 @@ You've just finished the LED circuit! In a future lesson, you will learn how to 
 
 ### Prepare
 
-Cut off about 4.5 inches of both the red and black wire
+Cut off about 5 inches of both the red and black wire
 
 <figure class="flow-subfigures">
    <figcaption> Wire preparation</figcaption>
@@ -167,7 +167,27 @@ Note: Be careful not to aggresively push the soldering iron tip into the PDB, as
 
 Note: For the remainder of the instructions, unless stated otherwise, **red** wires should be soldered to **positive (+)** pads and **black wires** should be soldered to **ground (-)** pads. 
 
+### Attaching PDB to Frame
+
+For now, we're going to attach the PDB to the bottom platform. 
+
+Flip the bottom platform over, (Pressnuts facing down is the back side) 
+ 
+Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform. 
+
+<figure>
+    <figcaption>PDB attached to Bottom Platform</figcaption>
+    <img style='width:300px' src="photos/pdb_and_frame.png"/>
+</figure>
+
+
 ## Connecting the Pi Hat to the PDB
+Pass the black and red wires through this opening in the bottom platform before soldering to PDB
+
+<figure>
+    <figcaption>Wire Management(ignore the XT60 Battery Connector which you will solder onto the PDB in the next step)</figcaption>
+    <img style='width:300px' src="photos/"/>
+</figure>
 
 ### Solder
 
@@ -201,20 +221,6 @@ Do not solder the wires flat against the PDB - solder them at ~20° angle away f
     <img style='width:300px' src="photos/pdbFrameTopView.png"/>
 </figure>
 
-
-
-### Attaching PDB to Frame
-
-For now, we're going to attach the PDB to the bottom platform. 
-
-Flip the bottom platform over, (Pressnuts facing down is the back side) 
- 
-Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform. 
-
-<figure>
-    <figcaption>PDB attached to Bottom Platform</figcaption>
-    <img style='width:300px' src="photos/pdb_and_frame.png"/>
-</figure>
 
 
 <div class='check' markdown="1">

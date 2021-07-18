@@ -204,10 +204,10 @@ Using 4  12mm M3 screws and 4 M3 nuts, attach the PDB to the bottom platform.
 
 
 ## Connecting the Pi Hat to the PDB
-Pass the black and red wires through this opening in the bottom platform before soldering to PDB
+Pass the black and red wires through this opening in the bottom platform before soldering to PDB. See image below
 
 <figure>
-    <figcaption>Wire Management(ignore the XT60 Battery Connector which you will solder onto the PDB in the next step)</figcaption>
+    <figcaption>Wire Management(ignore the missing XT60 Battery Connector)</figcaption>
     <img style='width:300px' src="photos/Wire_management.png"/>
 </figure>
 

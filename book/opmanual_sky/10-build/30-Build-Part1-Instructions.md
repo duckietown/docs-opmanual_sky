@@ -160,7 +160,7 @@ Note: Be careful not to aggresively push the soldering iron tip into the PDB, as
 
 <figure>
     <figcaption>Tinned PDB</figcaption>
-    <img style='width:300px' src="photos/pdb_and_frame2.png"/>
+    <img style='width:300px' src="photos/Tinned_PDB.png"/>
 </figure>
 
 ***video tutorial***: [video instructions](https://drive.google.com/file/d/1xVlTBsAtarXKaJycGvJ66VYyJhe6loq3/view?usp=sharing)

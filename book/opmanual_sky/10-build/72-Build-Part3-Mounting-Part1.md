@@ -37,11 +37,7 @@ For reference, here are the motor directions with respect to the frame:
 - Arms: 4
 - Sandwich Platform: 2
 - Propeller Guards: 4
-- M3 Screws:  
-    6mm: 9  
-    10mm:  
-    12mm: 16  
-    16mm: 4
+- M3 Screws: 6mm: 9, 10mm: , 12mm: 16, 16mm: 4
 - M3 Nuts: 21
 - Soldering Tools
 - Standoffs: 4
@@ -131,10 +127,10 @@ For each motor, connect its plug bullet connectors to the socket bullet connecto
 
 
 ### Attaching the Flight Controller
-Gather  
-- 4 M3 16mm screws and 4 nuts  
-- Flight Controller  
-- Soldering Tools  
+Gather: 
+4 M3 16mm screws and 4 nuts 
+Flight Controller  
+Soldering Tools  
 
 ### Attaching Flight Controller
 
@@ -146,6 +142,7 @@ The flight controller will be installed upside down unto the bottom platform. It
     <img style='width:300px' src=""/>
 </figure>
 -->
+
 ### Solder leads to PDB
 
 Solder the other end of the 1.5 inch red and black wires to the PDB. Due to limited PDB pads, you will need to solder onto another pair of wires. The red wire should connect to a positive (+) pad and the black wire should connect to a negative (-) pad.
@@ -158,8 +155,6 @@ Solder the other end of the 1.5 inch red and black wires to the PDB. Due to limi
 -->
 
 Note: While trying to solder on these wires, you may accidentally unsolder the existing wires from the PDB. We recommend temporarily holding down the existing wires with long-nose pliers, tape, or helping hands. 
-
-
 
 ## Assembling the Frame
 

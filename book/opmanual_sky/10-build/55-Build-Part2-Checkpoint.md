@@ -29,7 +29,7 @@ In the previous version of the drone, we used an Infrared (IR) Sensor. However, 
 6. Print out the pathway "pwd" , record this and add "/infrared_pub.py" to the end of the text. 
 
 ### Pathway to downloaded script
-Now, we're going to find out the path to our downloaded script.
+Now, we're going to find out the path to our downloaded script
 1. Open up the terminal/command prompt on your computer.
 2. Navigate to your downloads folder "cd downloads"
 3. Print out the pathway "pwd", record this and add "/infrared_pub.py" to the end of the text

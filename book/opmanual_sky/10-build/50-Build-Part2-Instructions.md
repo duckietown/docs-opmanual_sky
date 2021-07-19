@@ -6,7 +6,7 @@
 
 The 4 colored wires of the TOF sensor are pretinned, therefore, there's no need to tin
 
-### Solder the IR Sensor Wires to the Pi Hat
+### Solder the TOF Sensor Wires to the Pi Hat
 
 Following the diagram below, insert a wire into the correct hole in the front of the Pi Hat. Then, flip the Pi Hat over to solder the wire on the back of the Pi Hat using the [through-hole soldering technique](#prereq-solder-through-hole).
 

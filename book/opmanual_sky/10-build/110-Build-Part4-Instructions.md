@@ -18,18 +18,21 @@ Gently lift near the pin header to detach the Pi hat
 2. If not already done, attach the FFC to the Pi Cam. The blue side should face upwards.
 
 INSERT: Photo of how to attach camera to frame
+
+<!--
 <figure>
    <figcaption>Pi Cam mounted</figcaption>
    <img style='width:300px' src=""/>
 </figure>
-
+-->
 INSERT: Photo of how to attach camera cable to camera
 
+<!--
  <figure>
      <figcaption> FFC Attachment to Pi Cam (shorter side in camera port)</figcaption>
      <img style='width:200px' src=""/>
  </figure>
-
+-->
 ### Connect FFC to the Pi
 
 You'll need to slightly twist the FFC so that the blue side faces the Raspberry pi's ports.
@@ -40,6 +43,7 @@ Note: Do not just push the FFC into the slot. [Watch this video](https://www.you
 
 Note: Due to some misdimensions, you'll need to slightly twist the FFC before passing it throught the slot in the Pi hat so that the blue side faces the Raspberry pi's ports.
 
+<!--
 <figure class="flow-subfigures">  
     <figcaption>Connecting Pi Cam</figcaption>
     <figure>
@@ -51,7 +55,7 @@ Note: Due to some misdimensions, you'll need to slightly twist the FFC before pa
         <img style='width:230px' src=""/>
     </figure>
 </figure>  
-
+-->
 ### Re-attach Pi Hat
 
 Put the Pi Hat back onto the Pi. Refer to [part 1](#build-part1-attach-pihat) for detailed instructions to attach the Pi hat.
@@ -63,11 +67,12 @@ Plug in the Flight Controller USB to any of the USB ports on the Raspberry Pi. T
 
 INSERT: Photo of USB coonnecting Pi to flight controller
 
+<!--
 <figure>
     <figcaption>USB Cable Plugged into Pi</figcaption>
     <img style='width:200px' src=""/>
 </figure>
-
+-->
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
@@ -75,7 +80,8 @@ Use the small zipties to secure the ESCs and motor wires to the bottom of each f
 
 Note: We do not want any wiring flaying up as the propellers spin.
 
-<figure class="flow-subfigures">  
+<!--
+<figure class="flow-subfigures-3">  
     <figcaption>Use Zip-ties to Secure Everything</figcaption>
     <figure>
         <figcaption>ESC and Motor Wires with Zipties</figcaption>
@@ -86,7 +92,7 @@ Note: We do not want any wiring flaying up as the propellers spin.
         <img style='width:230px' src=""/>
     </figure>
 </figure>  
-
+-->
 ## Propellers
 
 Attach the propellers to the drone so that it may fly; attach CW propellers to the CW motors, and CCW propellers to the CCW motors. The motors have small arrows on them in the center to indicate which type they are.
@@ -95,7 +101,8 @@ Note: The bolts on the motors that spin CCW tighten when turned CW, and the bolt
 
 Use the 8 mm wrench to tighten the bolts down so that the bottom of the propeller is flat on the top of the motor. Screw bolts down tightly, but not so tight that you could not remove the propellers if you had to.
 
-<figure class="flow-subfigures">  
+<!--
+<figure class="flow-subfigures-4">  
     <figcaption>Put on Propellers</figcaption>
     <figure>
         <figcaption>Notice Arrows Indicating the Type of Propeller</figcaption>
@@ -110,6 +117,7 @@ Use the 8 mm wrench to tighten the bolts down so that the bottom of the propelle
         <img style='width:250px' src=""/>
     </figure>
 </figure>  
+-->
 
 <div class='check' markdown="1">
 
@@ -135,7 +143,9 @@ Use the 8 mm wrench to tighten the bolts down so that the bottom of the propelle
 Place the slimmer side of each arm into the opening on the landing gear. Then gently slide the landing gear upwards until it can not be pushed further. 
 
 **INSERT: Photo of how to slide landing gear on
-<figure class="flow-subfigures">  
+
+<!--
+<figure class="flow-subfigures-6">  
     <figcaption>Attach Drone Feet</figcaption>
     <figure>
         <figcaption>Side View</figcaption>
@@ -146,7 +156,7 @@ Place the slimmer side of each arm into the opening on the landing gear. Then ge
         <img style='width:230px' src=""/>
     </figure>
 </figure>  
-
+-->
 
 <div class='check' markdown="1">
 

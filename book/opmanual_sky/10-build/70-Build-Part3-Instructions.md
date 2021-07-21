@@ -108,7 +108,6 @@ Solder the short edge of the straight pins to the flight controller.
 
 Note: Be sure that direction you solder the pins into the board is exactly as shown in the images
 
-TODO: REPLACE ALL PICTURES BELOW W/ RELEVANT ONES OF THE NEW FLIGHT CONTROLLER
 
 <figure class="flow-subfigures">  
     <figcaption>Solder FC Pins</figcaption>

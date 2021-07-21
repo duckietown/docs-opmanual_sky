@@ -119,12 +119,7 @@ Now you will configure each of the settings that need to be changed.
 
 Go to "Configuration" tab on the left side of cleanflight
 
-- Change the ESC/Motor protocol to "MULTISHOT".
-
-<figure>
-   <figcaption>Set Multishot</figcaption>
-   <img style='width:500px' src="photos/multishot.png"/>
-</figure>
+- Change the ESC/Motor protocol to "PWM".
 
 - Set the Minimum Throttle to 1100.
 

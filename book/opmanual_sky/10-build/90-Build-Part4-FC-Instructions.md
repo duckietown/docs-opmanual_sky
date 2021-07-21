@@ -119,8 +119,8 @@ Now you will configure each of the settings that need to be changed.
 
 Go to "Configuration" tab on the left side of cleanflight
 
-Change the ESC/Motor protocol to "PWM".  
-Set the Minimum Throttle to 1100.
+- Change the ESC/Motor protocol to "PWM".  
+- Set the Minimum Throttle to 1100.
 
 <figure>  
    <figcaption>Set Minimum Throttle</figcaption>

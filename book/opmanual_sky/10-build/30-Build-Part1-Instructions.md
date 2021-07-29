@@ -109,7 +109,7 @@ You've just finished the LED circuit! In a future lesson, you will learn how to 
 
 Cut off about 5 inches of both the red and black wire
 
-<figure class="flow-subfigures">
+<figure class="flow-sub">
    <figcaption> Wire preparation</figcaption>
    <figure>
        <figcaption>Wires pre-cut</figcaption>

@@ -56,21 +56,21 @@ Layer the arm with the Bottomr and Sandwich Platforms as shown below.
 
 **INSERT PICTURE OF LAYERED ARMS AND SANDWICH PLATFORM
 
-<!--
+
 <figure>
     <figcaption>Layering arms and sandwich platform</figcaption>
-    <img style='width:200px' src=""/>
+    <img style='width:200px' src="photos/arms_attached_side.png"/>
 </figure>
--->
+
 Using 16 12mm screws and 16 M3 nuts, secure the layered arms and sandwich platform. See picture below.
 
 **INSERT PICTURE OF SCREWS GOING THROGUH PLATFORM AND ARMS
-<!--
+
 <figure>
     <figcaption>Layering arms and sandwich platform</figcaption>
-    <img style='width:200px' src=""/>
+    <img style='width:200px' src="photos/arms_attached.png"/>
 </figure>
--->
+
 Now, we can attach the motors to the arms. We'll need to layer the arms with the propeller guards as well. 
 
 Layer the arms and the propeller guards as shown below.

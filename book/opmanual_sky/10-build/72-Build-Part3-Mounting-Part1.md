@@ -54,21 +54,19 @@ We're going to begin by attaching the arms to the bottom platform. The bottom pl
 
 Layer the arm with the Bottomr and Sandwich Platforms as shown below. 
 
-**INSERT PICTURE OF LAYERED ARMS AND SANDWICH PLATFORM
 
 
 <figure>
     <figcaption>Layering arms and sandwich platform</figcaption>
-    <img style='width:200px' src="photos/arms_attached_side.png"/>
+    <img style='width:200px' src="photos/Arms_attached_side.png"/>
 </figure>
 
 Using 16 12mm screws and 16 M3 nuts, secure the layered arms and sandwich platform. See picture below.
 
-**INSERT PICTURE OF SCREWS GOING THROGUH PLATFORM AND ARMS
 
 <figure>
     <figcaption>Layering arms and sandwich platform</figcaption>
-    <img style='width:200px' src="photos/arms_attached.png"/>
+    <img style='width:200px' src="photos/Arms_attached.png"/>
 </figure>
 
 Now, we can attach the motors to the arms. We'll need to layer the arms with the propeller guards as well. 
@@ -89,26 +87,17 @@ Attach CW motors to the bottom-right and top-left of the drone frame, using 4 bl
 
 Note: Align the motors so the wires point towards the frame.
 
-**Insert Picture of screwed on CW layered motors with layered arms and propeller.
-<!--
-<figure>
-    <figcaption>Top view of Motor attachment</figcaption>
-    <img style='width:200px' src=""/>
-</figure>
--->
 ### Attach Counter-Clockwise (CCW) Motors
 
 Attach CCW motors to the bottom-left and top-right of the drone frame, using 4 black long bolts (included with the motors) for each attachment to the layered arms and propeller guards. Tighten with Hex key.
 
 Note: Align the motors so the wires point towards the frame.
 
-**Insert Picture of screwed on CW layered motors with layered arms and propeller.
-<!--
 <figure>
     <figcaption>Top view of Motor attachment</figcaption>
-    <img style='width:350px' src=""/>
+    <img style='width:350px' src="photos/Motors_orientation.png"/>
 </figure>
--->
+
 ### Solder ESCs to the PDB
 
 An ESC (i.e. Electronic Speed Control) is a component which requires power. It takes this power and provides a variable amount of it to a motor; since a motor's RPM depends on how much power it gets, an ESC can control how fast a motor spins by controlling how much power it supplies the motor.
@@ -162,12 +151,11 @@ At this point, You should have the following set up
 
 **INSERT: Image of Frame after following instructions above
 
-<!--
 <figure>
     <figcaption>Checkpoint</figcaption>
-    <img style='width:300px' src=""/>
+    <img style='width:300px' src="photos/Mounting_checkpoint.png"/>
 </figure>
--->
+
 Now, we'll assemble the rest of the frame. Then mount the Raspberry pi and TOF sensor
 
 Gather:  
@@ -182,22 +170,21 @@ Screwdriver
 Flip the Bottom platform/ Arm assembly over to the top side ( Pressnuts facing up). 
 Screw in the standoffs to the 4 empty pressnuts.
 
-INSERT: image of standoffs screwed in
-<!--
+
 <figure>
     <figcaption>Drone frame with standoffs</figcaption>
-    <img style='width:300px' src=""/>
+    <img style='width:300px' src="photos/Standoffs_mounted.png"/>
 </figure>
--->
+
 Line up the holes on top platform with the holes at the top of the standoffs. Use 4 6mm M3 screws to attach the top platform to the standoffs
 
 INSERT: image of top platform screwed in
-<!--
+
 <figure>
     <figcaption>Drone frame with top platform attached</figcaption>
-    <img style='width:300px' src=""/>
+    <img style='width:300px' src="photos/Top_platform_mounted.png"/>
 </figure>
--->
+
 If not already detached, detach the Pi hat from the raspberry pi and set aside. Take care that the wires reaching from the pi hat to the PDB are not tangled or caught between any platforms.
 
 Using 4 6mm M3 Screws, attach the Raspberry pi to the top platform. It should be screwed into pressnuts embedded in the top platform. 
@@ -212,10 +199,11 @@ INSERT: image of raspberry pi screwed into top platform
 </figure>
 -->
 Now, reattach the Pi hat to the mounted pi. Lastly, we'll mount the TOF sensor to the frame. 
+
 The TOF sensor will be positioned at the back of the drone using a 6mm M3 and a M3 nut, extend the TOF sensor wire from the pi hat through the opening in the top platform down to the bottom platform.
 Ensure the sensor is not skewed. See figure below.
 
-INSERT: image of TOF screwed into top platform 
+INSERT: image of TOF screwed into bottom platform 
 <!--
 <figure>
     <figcaption>Mounted TOF sensor</figcaption>

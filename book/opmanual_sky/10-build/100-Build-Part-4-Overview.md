@@ -34,6 +34,9 @@ Drone are specified by three numbers. The propellers on your drone are 5 x 4 x 3
     <img src="photos/new-props.png" width="300"/>
 </figure>
 
+### Landing Gear
+
+
 
 ## Build Progress
 

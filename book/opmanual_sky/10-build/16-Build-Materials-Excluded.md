@@ -33,7 +33,7 @@ Google Chrome is recommended. You will need to download a Chrome app later on, s
 
 ### File Downloads {#materials-file-downloads}
 
-1. [SD Card Image](https://duckietown-public-storage.s3.amazonaws.com/brown/disk_image/drone-9_01_20.gz)
+1. [SD Card Image](https://www.dropbox.com/s/ask4lj1es599mpc/mass_drone.gz?dl=0)
 
 1. [Flight Controller Firmware](https://duckietown-public-storage.s3.amazonaws.com/brown/firmware/spracing_f3-7_27_20.hex)
 

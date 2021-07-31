@@ -3,7 +3,7 @@
 **Expected Time**: 30 minutes
 
 ## Overview
-In the previous version of the drone, we used an Infrared (IR) Sensor. However, this version features an upgraded TOF sensor. We will need to overwrite the old Infrared Sensor script with a new script designed for the TOF sensor
+In the previous version of the drone, we used an Infrared (IR) Sensor. However, this version features an upgraded TOF sensor. We will need to overwrite an old Infrared Sensor script with a new script designed for the TOF sensor.
 
 ### Preliminaries
 1. Navigating a terminal:  

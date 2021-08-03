@@ -26,19 +26,19 @@ Note: You can use any setup to hold the bullet connector, so long as the setup i
 
 For each ESC:
 
-1. Solder a socket bullet connector to the end of each of the 3 blue ESC wires.
+1. Solder a socket bullet connector to the end of each of the 3 ESC wires.
 
-1. Put a heat shrink over each solder joint. For socket connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
+2. Put a heat shrink over each solder joint. For socket connectors: the heat shrink should cover the solder joint on one end and run the entire length of the bullet connector. Apply heat to shrink the heat shrink.
  
 <figure>  
     <figcaption>Put Heat Shrinks on Socket Bullet Connectors (ignore the fact that the ESCs shown in these pictures are slightly different than those you are using)</figcaption>
     <figure>
         <figcaption>Socket Bullet Connectors on ESCs</figcaption>
-        <img style='width:250px' src="photos/bullet_connectors_in_esc.jpg"/>
+        <img style='width:250px' src="photos/ESC_with_bullet_connectors.png"/>
     </figure>
     <figure>  
         <figcaption>Socket Bullet Connector with Heat Shrinks</figcaption>
-        <img style='width:250px' src="photos/ESC_bullet_connectors_heat_shrinked.jpg"/>
+        <img style='width:250px' src="photos/ESC_with_bullet_connectors_covered.png"/>
     </figure>
 </figure>  
 
@@ -119,13 +119,12 @@ Note: Be sure that direction you solder the pins into the board is exactly as sh
 
 Trim the all of the pins on the flight controller just like the four shown in the image. This helps the flight controller sit level on the drone frame.
 
-Note: the image shows only 4 trimmed, but you will want to trim all of the pins (updated picture coming soon).
+Note: the image shows only 4 trimmed, but you will want to trim all of the pins.
 
-<figcaption>Trim the FC pins</figcaption>
-     <figure>
-           <figcaption>FC with pins cut</figcaption>
-           <img style='width:220px' src="photos/Fc_side.png"/>
-     </figure>
+<figure>
+     <figcaption>Trim the FC pins</figcaption>
+     <img style='width:220px' src="photos/Fc_side.png"/>
+</figure>
 
 ### Solder the battery monitor leads to the flight controller
 

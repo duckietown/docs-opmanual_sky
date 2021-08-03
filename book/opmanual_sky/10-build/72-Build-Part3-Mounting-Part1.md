@@ -4,6 +4,28 @@
 ## Preface
 In this phase of the build, you'll be constructing the frame and attaching essential components to it-- the motors, ESCs, and the flight controller.
 
+## Required Materials
+
+**Part : Quantity**
+ 
+- Counter-clockwise Motors (soldered with bullet plugs): 2
+- Clockwise Motors (soldered with bullet plugs): 2
+- Long M3 Bolts (included w/ motor): 16
+- Electronic Speed Controllers (ESCs) (soldered to bullet sockets) : 4
+- Flight Controller: 1
+- Raspberry Pi 3b+ and Pi hat
+- Bottom Platform: 1
+- Top platform: 1
+- Arms: 4
+- Sandwich Platform: 2
+- Propeller Guards: 4
+- Standoffs: 4
+- M3 Screws: 6mm:9 , 12mm:16, 16mm:4
+- M3 Nuts: 21
+- Soldering Tools
+- Screwdriver
+- Hex Key
+
 ### Drone Orientation
 
 **INSERT FINAL PICTURE WITH MOTOR AND ESC ATTACHED WITH LABELS FOR FRONT, BACK, LEFT, RIGHT
@@ -21,30 +43,6 @@ For reference, here are the motor directions with respect to the frame:
     <img style='width:200px' src=""/>
 </figure>
 -->
-## Required Materials
-
-**Part : Quantity**
- 
-- Counter-clockwise Motors (soldered with bullet plugs): 2
-- Clockwise Motors (soldered with bullet plugs): 2
-- Long M3 Bolts (included w/ motor): 16
-- Short M3 Bolts (included w/ motor)): 4
-- Electronic Speed Controllers (ESCs) (soldered to bullet sockets) : 4
-- Flight Controller: 1
-- Raspberry Pi 3b+ and Pi hat
-- Bottom Platform: 1
-- Top platform: 1
-- Arms: 4
-- Sandwich Platform: 2
-- Propeller Guards: 4
-- M3 Screws: 6mm: 9, 10mm: , 12mm: 16, 16mm: 4
-- M3 Nuts: 21
-- Soldering Tools
-- Standoffs: 4
-- Screwdriver: 1
-- Hex Key: 1
-
-
 
 ## Attaching Motors and ESC 
 
@@ -53,8 +51,6 @@ We're going to begin by attaching the arms to the bottom platform. The bottom pl
 
 
 Layer the arm with the Bottomr and Sandwich Platforms as shown below. 
-
-
 
 <figure>
     <figcaption>Layering arms and sandwich platform</figcaption>

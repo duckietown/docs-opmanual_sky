@@ -129,6 +129,7 @@ Note: the image shows only 4 trimmed, but you will want to trim all of the pins.
 ### Solder the battery monitor leads to the flight controller
 
 Tin and solder the battery leads to the flight controller as shown in the image
+Ensure you are soldering into the 2 holes below the BO lettering
 
 <figure>  
     <figcaption>View 2</figcaption>

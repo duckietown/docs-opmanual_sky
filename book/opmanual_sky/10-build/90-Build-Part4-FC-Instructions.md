@@ -124,7 +124,7 @@ Go to "Configuration" tab on the left side of cleanflight
 
 <figure>  
    <figcaption>Set Minimum Throttle</figcaption>
-   <img style='width:500px' src="photos/minimum_throttle.png"/>
+   <img style='width:500px' src="photos/Cleanflight-PWM.png"/>
 </figure>
 
 - Flip the yaw by 180&deg; (because the FC is rotated by 180&deg; when attached to the drone frame).
@@ -228,7 +228,7 @@ Note: There is a correct way to connect an ESC to the Flight Controller. Make su
 
 <figure>
     <figcaption>Connecting ESCs. White wire on the inside. </figcaption>
-    <img src="photos/fc-pwm.png" width="350"/>
+    <img src="photos/ESC-wire-orientation.png" width="350"/>
 </figure>  
 
 1) Plug each PWM wire into its corresponding ESC signal wire pair.

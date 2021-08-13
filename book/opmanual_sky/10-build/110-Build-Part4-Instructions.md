@@ -65,14 +65,24 @@ Put the Pi Hat back onto the Pi. Refer to [part 1](#build-part1-attach-pihat) fo
 
 Plug in the Flight Controller USB to any of the USB ports on the Raspberry Pi. The USB sends the autonomous flight commands from the Pi to the FC.
 
-INSERT: Photo of USB coonnecting Pi to flight controller
+Note: For the sake of wire management, it's advisable to loop the USB-TTL wires and USB wires around the cutout in the top platform. See image below.
 
-<!--
+
 <figure>
     <figcaption>USB Cable Plugged into Pi</figcaption>
-    <img style='width:200px' src=""/>
+    <img style='width:200px' src="usb-cable-attached.png"/>
 </figure>
--->
+
+
+## Landing Gear
+
+Place the slimmer side of each arm into the opening on the landing gear. Then gently slide the landing gear upwards until it can not be pushed further. 
+
+<figure>
+   <figcaption>Landing gear attached</figcaption>
+   <img style='width:300px' src="photos/Landing-gear-attached.png"/>
+</figure>
+
 
 ## Ziptie ESCs and PWM Connectors to Frame Arms
 
@@ -135,30 +145,11 @@ Use the 8 mm wrench to tighten the bolts down so that the bottom of the propelle
 
 3. Holding the motor still, try to spin the prop and make sure the props **cannot** spin around the motor shaft; the motors and the props should spin together.
 
-</div>
 
 
-## Landing Gear
 
-Place the slimmer side of each arm into the opening on the landing gear. Then gently slide the landing gear upwards until it can not be pushed further. 
 
-**INSERT: Photo of how to slide landing gear on
 
-<!--
-<figure class="flow-subfigures-6">  
-    <figcaption>Attach Drone Feet</figcaption>
-    <figure>
-        <figcaption>Side View</figcaption>
-        <img style='width:230px' src=""/>
-    </figure>
-    <figure>  
-        <figcaption>Bottom View</figcaption>
-        <img style='width:230px' src=""/>
-    </figure>
-</figure>  
--->
-
-<div class='check' markdown="1">
 
 1. Make sure ESC-motor wires are ziptied down properly. If not, you risk having a short.
 

@@ -187,15 +187,13 @@ Ensure the sensor is not skewed. See image below.
 
 At this point, your drone should look like the images below
 
-<figure class="flow-subfigures">  
-    <figcaption></figcaption>
-    <figure>
-       <figcaption>View 1</figcaption>
+<figcaption></figcaption>
+<figure>
+ <figcaption>View 1</figcaption>
        <img style='width:220px' src="photos/Side-view-drone.png"/>
     </figure>
     <figure>  
        <figcaption>View 2</figcaption>
        <img style='width:220px' src="photos/Top-view-drone.png"/>
     </figure>
-</figure>
 

@@ -107,12 +107,6 @@ The flight controller will be installed upside down unto the bottom platform. It
 ### Solder ESCs to the PDB
 
 An ESC (i.e. Electronic Speed Control) is a component which requires power. It takes this power and provides a variable amount of it to a motor; since a motor's RPM depends on how much power it gets, an ESC can control how fast a motor spins by controlling how much power it supplies the motor.
-<!--
-<figure>
-    <figcaption>ESCs Soldered to PDB</figcaption>
-    <img style='width:400px' src=""/>
-</figure>
--->
 
 Note: Do **not** solder the wires flat against the PDB - solder them at ~20&deg; angle. If you solder them flat, then you will not be able to fit the PDB into the drone frame.   
 

@@ -9,6 +9,17 @@ options.
 Due to bugs in the image, we ask that you turn off dhcpd, and bring
 down all docker containers.
 
+First, bring down all the containers. Run `docker ps -a` and `docker
+stop` on each container. Then reboot, and run `docker update
+--restart=no my-container` for each container that automatically
+restarts. Reboot again. When you are done, `docker ps -a` should show no
+containers running.
+
+
+`systemctl stop dhcpcd`
+
+`systemctl disable dhcpcd`
+
 ## Drone as Access Point
 
 The drone comes by default configured to act as an Wifi access point,

@@ -39,18 +39,20 @@ connected to your drone, which is problematic for flight.
 
 ## Drone in Managed Mode
 
-A second option is to connect both your base station and your drone to
-the wifi network.  Your drone will be in AP Managed mode, and obtain
-an IP address and internet access in the same way as your base
-station.  You can then use this wifi network to connect between the
-base station and the drone.  The advantage of this approach is that
-both machines have internet access, wirelessly.  The disadvantage is
-that the drone must be configured to access the ambient network, with
-its SSID and password, and this network must allow direct connections
-between two clients on the network.  This network must be available
-and working in order to fly.  Furthermore you must find the drone's IP
-address from your base station, unless you want to plug in a keyboard
-and monitor into the Pi to find out its IP address.
+We encourage everyone to try to run their drone in managed mode.  In
+this configuration, you connect both your base station and
+your drone to the wifi network.  Your drone will be in AP Managed
+mode, and obtain an IP address and internet access in the same way as
+your base station.  You can then use this wifi network to connect
+between the base station and the drone.  The advantage of this
+approach is that both machines have internet access, wirelessly.  The
+disadvantage is that the drone must be configured to access the
+ambient network, with its SSID and password, and this network must
+allow direct connections between two clients on the network.  This
+network must be available and working in order to fly.  Furthermore
+you must find the drone's IP address from your base station, unless
+you want to plug in a keyboard and monitor into the Pi to find out its
+IP address.
 
 ### Managed Mode Configuration
 

@@ -4,6 +4,11 @@ There are several options for your Raspberry Pi's network structure
 with different tradeoffs.  Here we give a summary of different
 options.
 
+## Bug Fixes
+
+Due to bugs in the image, we ask that you turn off dhcpd, and bring
+down all docker containers.
+
 ## Drone as Access Point
 
 The drone comes by default configured to act as an Wifi access point,
@@ -106,3 +111,5 @@ browse to your drone's code server: [duckiesky-drone.local:8081](duckiesky-drone
 b) If connecting via hostname did not work, then connect via IP address: ip_address:8081
 
 Note: If you are connecting over ssh instead of the terminal in the code server, you will need to specify the username. For example, `ssh duckiesky@duckiesky-drone.local` or `ssh duckiesky@ip_address`
+
+

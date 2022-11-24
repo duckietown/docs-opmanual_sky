@@ -4,6 +4,22 @@ There are several options for your Raspberry Pi's network structure
 with different tradeoffs.  Here we give a summary of different
 options.
 
+## Bug Fixes
+
+Due to bugs in the image, we ask that you turn off dhcpd, and bring
+down all docker containers.
+
+First, bring down all the containers. Run `docker ps -a` and `docker
+stop` on each container. Then reboot, and run `docker update
+--restart=no my-container` for each container that automatically
+restarts. Reboot again. When you are done, `docker ps -a` should show no
+containers running.
+
+
+`systemctl stop dhcpcd`
+
+`systemctl disable dhcpcd`
+
 ## Drone as Access Point
 
 The drone comes by default configured to act as an Wifi access point,
@@ -39,18 +55,20 @@ connected to your drone, which is problematic for flight.
 
 ## Drone in Managed Mode
 
-A second option is to connect both your base station and your drone to
-the wifi network.  Your drone will be in AP Managed mode, and obtain
-an IP address and internet access in the same way as your base
-station.  You can then use this wifi network to connect between the
-base station and the drone.  The advantage of this approach is that
-both machines have internet access, wirelessly.  The disadvantage is
-that the drone must be configured to access the ambient network, with
-its SSID and password, and this network must allow direct connections
-between two clients on the network.  This network must be available
-and working in order to fly.  Furthermore you must find the drone's IP
-address from your base station, unless you want to plug in a keyboard
-and monitor into the Pi to find out its IP address.
+We encourage everyone to try to run their drone in managed mode.  In
+this configuration, you connect both your base station and
+your drone to the wifi network.  Your drone will be in AP Managed
+mode, and obtain an IP address and internet access in the same way as
+your base station.  You can then use this wifi network to connect
+between the base station and the drone.  The advantage of this
+approach is that both machines have internet access, wirelessly.  The
+disadvantage is that the drone must be configured to access the
+ambient network, with its SSID and password, and this network must
+allow direct connections between two clients on the network.  This
+network must be available and working in order to fly.  Furthermore
+you must find the drone's IP address from your base station, unless
+you want to plug in a keyboard and monitor into the Pi to find out its
+IP address.
 
 ### Managed Mode Configuration
 
@@ -104,3 +122,5 @@ browse to your drone's code server: [duckiesky-drone.local:8081](duckiesky-drone
 b) If connecting via hostname did not work, then connect via IP address: ip_address:8081
 
 Note: If you are connecting over ssh instead of the terminal in the code server, you will need to specify the username. For example, `ssh duckiesky@duckiesky-drone.local` or `ssh duckiesky@ip_address`
+
+

@@ -54,7 +54,36 @@ Connect to your drone's wifi network. By default, the wifi is called *defaultdro
 
 ### Code Editor
 
-In a new tab, browse to your drone's code editor: [192.168.42.1:8081](http://192.168.42.1:8081)
+In a new tab, browse to your drone's code editor: [192.168.42.1:8081](http://192.168.42.1:8081).
+
+This is not installed in the 2022 version of the drone, so instead use
+SSH.  Navigate to the `pidrone_pkg` directory and run `screen -c
+pi.screenrc` to start the Screen session.  Screen is a program that
+allows you to run multiple terminals in one ssh session.  The screen
+will persist even if the ssh session is disconnected and you log in
+again.  However it will disappear if you reboot the drone.  Run
+`screen -x` to see what screen sessions are running and reconnect to a
+session that you have disconnected from.  Be careful to only have one
+screen session running at a time.
+
+The screen session will start the ROS nodes needed to run your drone
+and make it fly.  However it will not start the flight controller
+node; we ask you to start this node manually because you should only
+run it if you are prepared for your propellers to spin.  The screen
+'escape' key is back-tick.  The "tick" \` key is typically located to
+the left of the `1` key, and is on the same key as the tilde `~`. Note
+that you will not see anything appear when you are typing \` `1`
+
+To navigate the screen tabs, use the following commands:
+\`1, `2, etc to navigate to a particular window. 
+
+\`" : Open tab menu
+
+\`n : Go to next tab
+
+\`p : Go to previous tab
+
+\`' : Ability to enter full numbers so can enter stuff like 10 and 11
 
 ### Start the Flight Code
 
@@ -68,7 +97,7 @@ In a new tab, browse to your drone's code editor: [192.168.42.1:8081](http://192
 
 ### Start the Flight Controller Node in Sensors-only Mode
 
-1. In the terminal, navigate to the flight controller node by typing "tick 1": \` `1` . The "tick" \` key is typically located to the left of the `1` key, and is on the same key as the tilde `~`. Note that you will not see anything appear when you are typing \` `1`
+1. In the terminal, navigate to the flight controller node by typing "tick 1": \` `1` . 
 
 1. Press enter to start the python script
 

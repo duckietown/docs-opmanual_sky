@@ -58,7 +58,7 @@ Tin all three metal pads on each of the four ESCs
 
 1. Solder the red wire to pad "A"
 
-1. Solder the blue wire to pad "B"
+1. Solder the blue wire to pad "C"
 
 1. Lightly pull the wire soldered to the pad and verify it stays on.
 
